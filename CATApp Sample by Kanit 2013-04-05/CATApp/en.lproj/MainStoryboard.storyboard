@@ -47,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i7v-rV-yPp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="2927"/>
+            <point key="canvasLocation" x="501" y="1165"/>
         </scene>
         <!--Table View Controller - บริการเช่าใช้พื้นที่-->
         <scene sceneID="6iZ-0G-2gA">
@@ -231,6 +231,131 @@
                     <view key="view" contentMode="scaleToFill" id="5xy-KH-QNe">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" id="fs7-jR-2qR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1296"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="CATLogo.png" id="03m-5V-PGA">
+                                        <rect key="frame" x="75" y="0.0" width="171" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="บริษัท กสท โทรคมนาคม จำกัด (มหาชน)" textAlignment="center" id="K6d-bI-9U8">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.87843143939971924" green="0.55294120311737061" blue="0.18431372940540314" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Y1C-et-aXQ">
+                                        <rect key="frame" x="0.0" y="128" width="320" height="178"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <mutableString key="text">     ได้จดทะเบียนจัดตั้งเมื่อวันที่ 14 สิงหาคม 2546 โดยการแปลงสภาพจากการสื่อสารแห่งประเทศไทยตามพระราชบัญญัติทุนรัฐวิสาหกิจ พ.ศ.2542 และได้รับโอนกิจการ สิทธิ หนี้ ความรับผิด และสินทรัพย์ของการสื่อสารแห่งประเทศไทยในส่วนที่เกี่ยวกับกิจการโทรคมนาคม ทั้งหมดเพื่อให้การดำเนินงานเป็นไปอย่างต่อเนื่องและมีประสิทธิภาพ ทั้งนี้บริษัทยังคงมีสถานภาพเป็นรัฐวิสาหกิจสังกัดกระทรวงเทคโนโลยีสารสนเทศ และการสื่อสาร โดยมีกระทรวงการคลังเป็นผู้ถือหุ้น 100% ของทุนจดทะเบียน </mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ข้อมูลทั่วไป" id="KVR-7P-u1V">
+                                        <rect key="frame" x="20" y="314" width="240" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.87843143940000001" green="0.55294120309999995" blue="0.18431372939999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="สถานะทางกฎหมาย  :  จดทะเบียนเป็นนิติบุคคลตามพระราชบัญญัติบริษัทมหาชนจำกัด พ.ศ. 2535" id="nBp-bV-1NA">
+                                        <rect key="frame" x="0.0" y="356" width="320" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ทะเบียนเลขที่          :  0107546000229" id="cFT-J7-NtC">
+                                        <rect key="frame" x="0.0" y="413" width="320" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Sly-21-CdO">
+                                        <rect key="frame" x="0.0" y="455" width="320" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <mutableString key="text">ประเภทธุรกิจ          :  ประกอบกิจการโทรคมนาคมและให้บริการทางด้านโทรคมนาคม ทุกลักษณะ ทุกประเภท รวมถึงกิจการที่ต่อเนื่องหรือใกล้เคียงกัน หรือที่เกี่ยวกับ หรือซึ่งเป็นประโยชน์แก่การประกอบกิจการ โทรคมนาคม และให้บริการทางด้านโทรคมนาคมดังกล่าวทั้งใน ประเทศ ระหว่างประเทศ และนอกประเทศ </mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" id="ntf-c3-NhU">
+                                        <rect key="frame" x="0.0" y="590" width="320" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">ทุนจดทะเบียนที่ชำระแล้ว :  10,000,000,000.- บาท 
+                                  (หนึ่งหมื่นล้านบาทถ้วน)</string>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" id="fXx-n0-pVF">
+                                        <rect key="frame" x="0.0" y="641" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">ชนิดหุ้น            :  เป็นหุ้นสามัญ 1,000,000,000 หุ้น 
+                       (หนึ่งพันล้านหุ้น)</string>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="มูลค่าหุ้นที่ตราไว้ :  10 บาทต่อหุ้น (สิบบาทถ้วน)" id="hUL-LN-8XC">
+                                        <rect key="frame" x="0.0" y="709" width="320" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="วิสัยทัศน์" id="W6u-ze-dev">
+                                        <rect key="frame" x="20" y="755" width="240" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.87843143940000001" green="0.55294120309999995" blue="0.18431372939999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="     เป็นผู้ให้บริการโทรคมนาคมชั้นนำของชาติ" id="cCt-RJ-ieL">
+                                        <rect key="frame" x="0.0" y="797" width="320" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="พันธกิจ" id="7Gp-Cy-uSx">
+                                        <rect key="frame" x="20" y="844" width="240" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.87843143940000001" green="0.55294120309999995" blue="0.18431372939999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" id="YRu-Od-nPu">
+                                        <rect key="frame" x="0.0" y="886" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">     - ปฏิรูปวัฒนธรรมองค์กรให้มีการทำงานร่วมกันเป็นทีม ปรับเปลี่ยนกฎระเบียบภายใน และกระบวนการตัดสินใจ เพื่อตอบสนองต่อความต้องการทางธุรกิจ</string>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="     - นำเทคโนโลยีที่ทันสมัยมาให้บริการ ด้วยคุณภาพที่ได้มาตรฐาน และราคาที่แข่งขันได้" id="Kcl-sa-yin">
+                                        <rect key="frame" x="0.0" y="944" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" id="9rk-iT-vU5">
+                                        <rect key="frame" x="0.0" y="984" width="320" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">     - พัฒนาทักษะ เพิ่มประสิทธิภาพและขีดความสามารถขององค์กร ให้สามารถตอบสนองความต้องการของลูกค้า และการพัฒนาประเทศชาติได้อย่างสมบูรณ์แบบ</string>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="     - เป็นรัฐวิสาหกิจที่ดำเนินงานอย่างมีประสิทธิภาพ โปร่งใส และมีความรับผิดชอบต่อสังคมและประเทศชาติ" id="8Hg-Vc-fOa">
+                                        <rect key="frame" x="0.0" y="1044" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="CATBoard.png" id="msB-qg-29J">
+                                        <rect key="frame" x="0.0" y="1102" width="320" height="189"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2300"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Company" image="catsmall.png" id="QU6-vT-MW2"/>
@@ -251,8 +376,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="LcG-yX-cxe" kind="relationship" relationship="viewControllers" id="saV-Q4-sUs"/>
-                        <segue destination="gf4-fG-UrU" kind="relationship" relationship="viewControllers" id="Usp-SN-UdY"/>
                         <segue destination="m2r-eI-w1j" kind="relationship" relationship="viewControllers" id="Xel-1V-PQO"/>
+                        <segue destination="gf4-fG-UrU" kind="relationship" relationship="viewControllers" id="wEJ-Vc-rgB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gom-NS-sTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2147,10 +2272,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CATBoard.png" width="355" height="223"/>
         <image name="CATConferance.png" width="545" height="545"/>
         <image name="CATCyfance.png" width="100" height="100"/>
         <image name="CATDatacom.png" width="145" height="145"/>
         <image name="CATHinet.png" width="203" height="203"/>
+        <image name="CATLogo.png" width="493" height="204"/>
         <image name="CATPlace.png" width="300" height="300"/>
         <image name="CATScreen.png" width="640" height="1136"/>
         <image name="CATTrunk.png" width="100" height="100"/>

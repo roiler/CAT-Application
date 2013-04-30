@@ -19,6 +19,8 @@
 		B61E8ECA172F98B700B22AB3 /* CATCyfance.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8EC9172F98B700B22AB3 /* CATCyfance.png */; };
 		B61E8ECC172F9A4900B22AB3 /* CATTrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ECB172F9A4900B22AB3 /* CATTrunk.png */; };
 		B61E8ECE172F9D6A00B22AB3 /* CATPlace.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */; };
+		B61E8ED0172FAE3300B22AB3 /* CATLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ECF172FAE3300B22AB3 /* CATLogo.png */; };
+		B61E8ED2172FC02600B22AB3 /* CATBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ED1172FC02600B22AB3 /* CATBoard.png */; };
 		B647F280170D5C4C00290C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F27F170D5C4C00290C90 /* UIKit.framework */; };
 		B647F282170D5C4C00290C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F281170D5C4C00290C90 /* Foundation.framework */; };
 		B647F284170D5C4C00290C90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F283170D5C4C00290C90 /* CoreGraphics.framework */; };
@@ -51,7 +53,9 @@
 		B61E8EC9172F98B700B22AB3 /* CATCyfance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATCyfance.png; sourceTree = "<group>"; };
 		B61E8ECB172F9A4900B22AB3 /* CATTrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATTrunk.png; sourceTree = "<group>"; };
 		B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATPlace.png; sourceTree = "<group>"; };
-		B647F27C170D5C4C00290C90 /* CATApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E8ECF172FAE3300B22AB3 /* CATLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo.png; sourceTree = "<group>"; };
+		B61E8ED1172FC02600B22AB3 /* CATBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATBoard.png; sourceTree = "<group>"; };
+		B647F27C170D5C4C00290C90 /* CAT Plc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAT Plc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B647F27F170D5C4C00290C90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B647F281170D5C4C00290C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B647F283170D5C4C00290C90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +104,8 @@
 		B647F273170D5C4C00290C90 = {
 			isa = PBXGroup;
 			children = (
+				B61E8ED1172FC02600B22AB3 /* CATBoard.png */,
+				B61E8ECF172FAE3300B22AB3 /* CATLogo.png */,
 				B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */,
 				B61E8ECB172F9A4900B22AB3 /* CATTrunk.png */,
 				B61E8EC9172F98B700B22AB3 /* CATCyfance.png */,
@@ -121,7 +127,7 @@
 		B647F27D170D5C4C00290C90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B647F27C170D5C4C00290C90 /* CATApp.app */,
+				B647F27C170D5C4C00290C90 /* CAT Plc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,7 +200,7 @@
 			);
 			name = CATApp;
 			productName = CATApp;
-			productReference = B647F27C170D5C4C00290C90 /* CATApp.app */;
+			productReference = B647F27C170D5C4C00290C90 /* CAT Plc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,6 +257,8 @@
 				B61E8ECA172F98B700B22AB3 /* CATCyfance.png in Resources */,
 				B61E8ECC172F9A4900B22AB3 /* CATTrunk.png in Resources */,
 				B61E8ECE172F9D6A00B22AB3 /* CATPlace.png in Resources */,
+				B61E8ED0172FAE3300B22AB3 /* CATLogo.png in Resources */,
+				B61E8ED2172FC02600B22AB3 /* CATBoard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +358,7 @@
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CAT Plc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -362,7 +370,7 @@
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CAT Plc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
