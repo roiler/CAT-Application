@@ -47,7 +47,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i7v-rV-yPp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="501" y="1165"/>
+            <point key="canvasLocation" x="798" y="1197"/>
+        </scene>
+        <!--Table View Controller - News-->
+        <scene sceneID="arR-bs-GhU">
+            <objects>
+                <tableViewController id="FLq-EC-zk7" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="O2g-AC-czv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Lhn-7V-33C">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="News" id="ex1-K7-r1J"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R5h-Dw-uCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1334" y="1943"/>
+        </scene>
+        <!--Navigation Controller - News-->
+        <scene sceneID="DCN-z9-neC">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="JVt-Ny-CpV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News" image="rss.png" id="ypR-ND-PRs"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="KBZ-8y-jQg">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FLq-EC-zk7" kind="relationship" relationship="rootViewController" id="ZvX-Tj-YBW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dob-7t-7to" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806" y="1943"/>
         </scene>
         <!--Table View Controller - บริการเช่าใช้พื้นที่-->
         <scene sceneID="6iZ-0G-2gA">
@@ -75,7 +119,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o9T-Nu-plB">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,7 +144,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iG5-Xm-7mH">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
@@ -125,7 +169,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="98J-Dj-FWs">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
@@ -143,7 +187,9 @@
                             <outlet property="delegate" destination="xWY-fR-uus" id="Hfa-bS-y1F"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="บริการเช่าใช้พื้นที่" id="aXd-Ce-S3x"/>
+                    <navigationItem key="navigationItem" title="บริการเช่าใช้พื้นที่" id="aXd-Ce-S3x">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="hPY-D7-IZF"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BzU-H5-mb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -218,7 +264,9 @@
                             <outlet property="delegate" destination="tGv-v8-3ff" id="rMA-AL-IIQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="บริการวิทยุคมนาคม" id="ytS-Ba-ixs"/>
+                    <navigationItem key="navigationItem" title="บริการวิทยุคมนาคม" id="ytS-Ba-ixs">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="I8C-77-L2f"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uU1-oC-Whi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,7 +298,7 @@
                                     <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Y1C-et-aXQ">
                                         <rect key="frame" x="0.0" y="128" width="320" height="178"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">     ได้จดทะเบียนจัดตั้งเมื่อวันที่ 14 สิงหาคม 2546 โดยการแปลงสภาพจากการสื่อสารแห่งประเทศไทยตามพระราชบัญญัติทุนรัฐวิสาหกิจ พ.ศ.2542 และได้รับโอนกิจการ สิทธิ หนี้ ความรับผิด และสินทรัพย์ของการสื่อสารแห่งประเทศไทยในส่วนที่เกี่ยวกับกิจการโทรคมนาคม ทั้งหมดเพื่อให้การดำเนินงานเป็นไปอย่างต่อเนื่องและมีประสิทธิภาพ ทั้งนี้บริษัทยังคงมีสถานภาพเป็นรัฐวิสาหกิจสังกัดกระทรวงเทคโนโลยีสารสนเทศ และการสื่อสาร โดยมีกระทรวงการคลังเป็นผู้ถือหุ้น 100% ของทุนจดทะเบียน </mutableString>
+                                        <string key="text">     ได้จดทะเบียนจัดตั้งเมื่อวันที่ 14 สิงหาคม 2546 โดยการแปลงสภาพจากการสื่อสารแห่งประเทศไทยตามพระราชบัญญัติทุนรัฐวิสาหกิจ พ.ศ.2542 และได้รับโอนกิจการ สิทธิ หนี้ ความรับผิด และสินทรัพย์ของการสื่อสารแห่งประเทศไทยในส่วนที่เกี่ยวกับกิจการโทรคมนาคม ทั้งหมดเพื่อให้การดำเนินงานเป็นไปอย่างต่อเนื่องและมีประสิทธิภาพ ทั้งนี้บริษัทยังคงมีสถานภาพเป็นรัฐวิสาหกิจสังกัดกระทรวงเทคโนโลยีสารสนเทศ และการสื่อสาร โดยมีกระทรวงการคลังเป็นผู้ถือหุ้น 100% ของทุนจดทะเบียน </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -276,7 +324,7 @@
                                     <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="Sly-21-CdO">
                                         <rect key="frame" x="0.0" y="455" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">ประเภทธุรกิจ          :  ประกอบกิจการโทรคมนาคมและให้บริการทางด้านโทรคมนาคม ทุกลักษณะ ทุกประเภท รวมถึงกิจการที่ต่อเนื่องหรือใกล้เคียงกัน หรือที่เกี่ยวกับ หรือซึ่งเป็นประโยชน์แก่การประกอบกิจการ โทรคมนาคม และให้บริการทางด้านโทรคมนาคมดังกล่าวทั้งใน ประเทศ ระหว่างประเทศ และนอกประเทศ </mutableString>
+                                        <string key="text">ประเภทธุรกิจ          :  ประกอบกิจการโทรคมนาคมและให้บริการทางด้านโทรคมนาคม ทุกลักษณะ ทุกประเภท รวมถึงกิจการที่ต่อเนื่องหรือใกล้เคียงกัน หรือที่เกี่ยวกับ หรือซึ่งเป็นประโยชน์แก่การประกอบกิจการ โทรคมนาคม และให้บริการทางด้านโทรคมนาคมดังกล่าวทั้งใน ประเทศ ระหว่างประเทศ และนอกประเทศ </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -362,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykV-r5-rUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="-1698"/>
+            <point key="canvasLocation" x="798" y="-258"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tQ3-Tj-qxC">
@@ -378,6 +426,7 @@
                         <segue destination="LcG-yX-cxe" kind="relationship" relationship="viewControllers" id="saV-Q4-sUs"/>
                         <segue destination="m2r-eI-w1j" kind="relationship" relationship="viewControllers" id="Xel-1V-PQO"/>
                         <segue destination="gf4-fG-UrU" kind="relationship" relationship="viewControllers" id="wEJ-Vc-rgB"/>
+                        <segue destination="JVt-Ny-CpV" kind="relationship" relationship="viewControllers" id="Cqm-QF-gHm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gom-NS-sTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -419,6 +468,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="FLR-d7-aNK" kind="push" id="77T-Ak-FeK"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lks-eS-mbH" detailTextLabel="a6q-Ab-LYw" style="IBUITableViewCellStyleSubtitle" id="eSP-NI-Scu">
                                         <rect key="frame" x="0.0" y="70" width="320" height="70"/>
@@ -444,6 +496,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="vmB-cB-8mF" kind="push" id="cb7-3e-5FR"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="z7K-Ix-Dhs" detailTextLabel="ldK-Mn-BRz" style="IBUITableViewCellStyleSubtitle" id="crt-i4-XNy">
                                         <rect key="frame" x="0.0" y="140" width="320" height="70"/>
@@ -469,6 +524,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="7bp-M1-Sgr" kind="push" id="PwU-Jc-rOK"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="eKf-ee-qfX" detailTextLabel="aPr-ht-HKN" style="IBUITableViewCellStyleSubtitle" id="MKP-PD-BPA">
                                         <rect key="frame" x="0.0" y="210" width="320" height="70"/>
@@ -494,6 +552,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="tHq-bm-RU3" kind="push" id="Bbs-eB-KMh"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="dZo-EV-geD" detailTextLabel="H3I-Dq-T1M" style="IBUITableViewCellStyleSubtitle" id="set-dz-k9q">
                                         <rect key="frame" x="0.0" y="280" width="320" height="70"/>
@@ -519,6 +580,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="dnc-PD-jCX" kind="push" id="GM6-9g-3XV"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="T6J-mk-aSX" detailTextLabel="Btf-UA-xLC" style="IBUITableViewCellStyleSubtitle" id="ciG-fe-HVg">
                                         <rect key="frame" x="0.0" y="350" width="320" height="70"/>
@@ -544,6 +608,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="ABV-eY-VAf" kind="push" id="ImN-Ns-hTK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -553,11 +620,73 @@
                             <outlet property="delegate" destination="jdx-Mm-yIZ" id="pBs-zY-rWC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAT E-Business" id="cIb-ie-4bd"/>
+                    <navigationItem key="navigationItem" title="CAT E-Business" id="cIb-ie-4bd">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="810-Ls-m9X"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvN-xy-JEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1928" y="1321"/>
+            <point key="canvasLocation" x="1878" y="1269"/>
+        </scene>
+        <!--View Controller - CAT E-Mail-->
+        <scene sceneID="B0D-XI-OmQ">
+            <objects>
+                <viewController id="dnc-PD-jCX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Z3-PP-Jsc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT E-Mail" id="Oee-hd-1Fz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sr0-M4-gVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="1279"/>
+        </scene>
+        <!--View Controller - CAT Webhard-->
+        <scene sceneID="h7Q-58-P23">
+            <objects>
+                <viewController id="ABV-eY-VAf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yCJ-i6-ZjP">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT Webhard" id="DCh-vL-Cs8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lbT-qX-WGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2275" y="1286"/>
+        </scene>
+        <!--View Controller - CAT Conference-->
+        <scene sceneID="OfF-2L-KfR">
+            <objects>
+                <viewController id="tHq-bm-RU3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vF7-3H-x36">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT Conference" id="0y3-0S-Qa7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9eg-S4-Nl3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3046" y="1279"/>
+        </scene>
+        <!--View Controller - CAT e-Office-->
+        <scene sceneID="nPR-In-QuC">
+            <objects>
+                <viewController id="7bp-M1-Sgr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KRJ-Dc-1Ck">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT e-Office" id="8X8-Nt-oh0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9D-xo-itm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3439" y="1269"/>
         </scene>
         <!--View Controller - CAT Wireless-->
         <scene sceneID="wB4-Kg-3a6">
@@ -630,7 +759,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gVE-Km-aJb">
                                         <rect key="frame" x="0.0" y="759" width="320" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">     สามารถดูได้จากสเปค หรือคุณสมบัติของโทรศัพท์มือถือ ที่ระบุว่ารองรับ WCDMA/HSPA บนคลื่นความถี่ 850 MHz เพียงแค่นี้คุณก็สามารถใช้บริการ 3G ของ my ได้อย่างมีประสิทธิภาพ จึงเป็นคำตอบที่ลงตัวของผู้รักโลกออนไลน์ความเร็วสูงในรูปแบบ 3G  ไม่ว่าจะอยู่ที่ไหนของประเทศ ด้วยโครงข่ายที่ครอบคลุมที่สุดในปัจจุบัน my จะช่วยเปิดโอกาสในการเข้าถึงข้อมูลข่าวสารและการเรียนรู้ ทำให้คนไทยได้ใช้บริการ 3G ได้อย่างทั่วถึงทุกภูมิภาค</mutableString>
+                                        <string key="text">     สามารถดูได้จากสเปค หรือคุณสมบัติของโทรศัพท์มือถือ ที่ระบุว่ารองรับ WCDMA/HSPA บนคลื่นความถี่ 850 MHz เพียงแค่นี้คุณก็สามารถใช้บริการ 3G ของ my ได้อย่างมีประสิทธิภาพ จึงเป็นคำตอบที่ลงตัวของผู้รักโลกออนไลน์ความเร็วสูงในรูปแบบ 3G  ไม่ว่าจะอยู่ที่ไหนของประเทศ ด้วยโครงข่ายที่ครอบคลุมที่สุดในปัจจุบัน my จะช่วยเปิดโอกาสในการเข้าถึงข้อมูลข่าวสารและการเรียนรู้ ทำให้คนไทยได้ใช้บริการ 3G ได้อย่างทั่วถึงทุกภูมิภาค</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -660,7 +789,22 @@
             </objects>
             <point key="canvasLocation" x="1886" y="2070"/>
         </scene>
-        <!--Table View Controller-->
+        <!--View Controller - CAT e-Smart Farm-->
+        <scene sceneID="VOV-xi-9nU">
+            <objects>
+                <viewController id="vmB-cB-8mF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TkH-6Q-ZXD">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT e-Smart Farm" id="Ygp-hF-9zO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFA-VN-sjZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3847" y="1279"/>
+        </scene>
+        <!--Table View Controller - CAT Cyfence-->
         <scene sceneID="fnq-n1-BZ6">
             <objects>
                 <tableViewController id="ywx-Cx-i42" sceneMemberID="viewController">
@@ -879,11 +1023,28 @@
                             <outlet property="delegate" destination="ywx-Cx-i42" id="WdQ-9u-tmE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Oul-tV-8YX"/>
+                    <navigationItem key="navigationItem" title="CAT Cyfence" id="Oul-tV-8YX">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="6ik-Nq-IZH"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NS-3a-IIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1897" y="2785"/>
+        </scene>
+        <!--View Controller - CAT e-Auction-->
+        <scene sceneID="JZi-NK-ffw">
+            <objects>
+                <viewController id="FLR-d7-aNK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wPR-ZD-dRc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAT e-Auction" id="5Vp-mQ-iZi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rS-jo-H54" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4245" y="1279"/>
         </scene>
         <!--Table View Controller - CAT Datacom-->
         <scene sceneID="8bf-8Q-oSO">
@@ -961,7 +1122,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qVb-vf-dgV">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -986,7 +1147,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="diT-3s-JHa">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1011,7 +1172,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nvs-2F-yFQ">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1036,7 +1197,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8MG-hf-DOQ">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1061,7 +1222,7 @@
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="axZ-oM-LeV">
-                                                    <rect key="frame" x="10" y="37" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="10" y="37" width="47" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1150,7 +1311,9 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAT Datacom" id="umQ-e3-Df0"/>
+                    <navigationItem key="navigationItem" title="CAT Datacom" id="umQ-e3-Df0">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="GdS-yO-kOF"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1a-BJ-Lj7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1371,7 +1534,9 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAT Product" id="Slq-aH-xGk"/>
+                    <navigationItem key="navigationItem" title="CAT Product" id="Slq-aH-xGk">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="dv1-Hv-heU"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLQ-UU-pGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1846,7 +2011,9 @@
                             <outlet property="delegate" destination="m9s-yp-fmr" id="20s-p3-TEh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAT Voice" id="TKz-eL-HWz"/>
+                    <navigationItem key="navigationItem" title="CAT Voice" id="TKz-eL-HWz">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="zqX-9E-wZj"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNO-NE-SHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2264,11 +2431,13 @@
                             <outlet property="delegate" destination="7ku-tf-0et" id="5cr-1b-1ZW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAT Internet" id="Ecf-iF-Ght"/>
+                    <navigationItem key="navigationItem" title="CAT Internet" id="Ecf-iF-Ght">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="M52-F4-Hax"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="844-Ni-qiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="615"/>
+            <point key="canvasLocation" x="1878" y="575"/>
         </scene>
     </scenes>
     <resources>
@@ -2285,6 +2454,7 @@
         <image name="catsmall.png" width="30" height="30"/>
         <image name="file.png" width="30" height="30"/>
         <image name="newmyLogo.png" width="157" height="142"/>
+        <image name="rss.png" width="30" height="30"/>
         <image name="satellite.png" width="30" height="30"/>
     </resources>
     <classes>

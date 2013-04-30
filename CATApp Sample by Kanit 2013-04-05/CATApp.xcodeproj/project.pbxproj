@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60B0BDF173021E00076E585 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B0BDE173021E00076E585 /* rss.png */; };
 		B61E8898172F5DC800B22AB3 /* CATDatacom.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8897172F5DC800B22AB3 /* CATDatacom.png */; };
 		B61E889A172F616400B22AB3 /* CATVoice.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8899172F616400B22AB3 /* CATVoice.png */; };
 		B61E889C172F647200B22AB3 /* CATHinet.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E889B172F647200B22AB3 /* CATHinet.png */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60B0BDE173021E00076E585 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
 		B61E8897172F5DC800B22AB3 /* CATDatacom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATDatacom.png; sourceTree = "<group>"; };
 		B61E8899172F616400B22AB3 /* CATVoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATVoice.png; sourceTree = "<group>"; };
 		B61E889B172F647200B22AB3 /* CATHinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATHinet.png; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		B647F2A2170D615100290C90 /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				B60B0BDE173021E00076E585 /* rss.png */,
 				B61E8EBE172F6EA800B22AB3 /* catsmall.png */,
 				B61E8EB4172F683700B22AB3 /* file.png */,
 				B61E8EB5172F683700B22AB3 /* info.png */,
@@ -259,6 +262,7 @@
 				B61E8ECE172F9D6A00B22AB3 /* CATPlace.png in Resources */,
 				B61E8ED0172FAE3300B22AB3 /* CATLogo.png in Resources */,
 				B61E8ED2172FC02600B22AB3 /* CATBoard.png in Resources */,
+				B60B0BDF173021E00076E585 /* rss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
