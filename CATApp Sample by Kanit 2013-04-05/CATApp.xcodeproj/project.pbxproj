@@ -39,6 +39,12 @@
 		B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */; };
 		B6CAA096170E69BE000F2DB6 /* CATLogo2X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */; };
 		B6CAA0B3170E8C4E000F2DB6 /* CATScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */; };
+		C3C9CDBA173660D00033B28E /* trunked-mobile-radio-250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */; };
+		C3C9CDBC173666D30033B28E /* taxi_radio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDBB173666D30033B28E /* taxi_radio.jpg */; };
+		C3C9CDBE1736685C0033B28E /* Repeater_radio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDBD1736685C0033B28E /* Repeater_radio.jpg */; };
+		C3C9CDC017367FEA0033B28E /* CAT Convention Hall1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDBF17367FEA0033B28E /* CAT Convention Hall1.jpg */; };
+		C3C9CDC4173682CA0033B28E /* CAT Convention Hall2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDC3173682CA0033B28E /* CAT Convention Hall2.jpg */; };
+		C3C9CDC6173685010033B28E /* จานดาวเทียม.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDC5173685010033B28E /* จานดาวเทียม.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +85,12 @@
 		B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo1X.png; sourceTree = "<group>"; };
 		B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo2X.png; sourceTree = "<group>"; };
 		B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATScreen.png; sourceTree = "<group>"; };
+		C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trunked-mobile-radio-250x250.png"; sourceTree = "<group>"; };
+		C3C9CDBB173666D30033B28E /* taxi_radio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxi_radio.jpg; sourceTree = "<group>"; };
+		C3C9CDBD1736685C0033B28E /* Repeater_radio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Repeater_radio.jpg; sourceTree = "<group>"; };
+		C3C9CDBF17367FEA0033B28E /* CAT Convention Hall1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CAT Convention Hall1.jpg"; sourceTree = "<group>"; };
+		C3C9CDC3173682CA0033B28E /* CAT Convention Hall2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CAT Convention Hall2.jpg"; sourceTree = "<group>"; };
+		C3C9CDC5173685010033B28E /* จานดาวเทียม.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "จานดาวเทียม.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +119,19 @@
 			isa = PBXGroup;
 			children = (
 				B61E8ED1172FC02600B22AB3 /* CATBoard.png */,
+				C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */,
 				B61E8ECF172FAE3300B22AB3 /* CATLogo.png */,
+				C3C9CDBD1736685C0033B28E /* Repeater_radio.jpg */,
 				B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */,
+				C3C9CDBF17367FEA0033B28E /* CAT Convention Hall1.jpg */,
 				B61E8ECB172F9A4900B22AB3 /* CATTrunk.png */,
+				C3C9CDC5173685010033B28E /* จานดาวเทียม.jpg */,
 				B61E8EC9172F98B700B22AB3 /* CATCyfance.png */,
 				B61E889D172F655A00B22AB3 /* CATConferance.png */,
+				C3C9CDBB173666D30033B28E /* taxi_radio.jpg */,
 				B61E889B172F647200B22AB3 /* CATHinet.png */,
 				B61E8899172F616400B22AB3 /* CATVoice.png */,
+				C3C9CDC3173682CA0033B28E /* CAT Convention Hall2.jpg */,
 				B61E8897172F5DC800B22AB3 /* CATDatacom.png */,
 				B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */,
 				B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */,
@@ -263,6 +281,12 @@
 				B61E8ED0172FAE3300B22AB3 /* CATLogo.png in Resources */,
 				B61E8ED2172FC02600B22AB3 /* CATBoard.png in Resources */,
 				B60B0BDF173021E00076E585 /* rss.png in Resources */,
+				C3C9CDBA173660D00033B28E /* trunked-mobile-radio-250x250.png in Resources */,
+				C3C9CDBC173666D30033B28E /* taxi_radio.jpg in Resources */,
+				C3C9CDBE1736685C0033B28E /* Repeater_radio.jpg in Resources */,
+				C3C9CDC017367FEA0033B28E /* CAT Convention Hall1.jpg in Resources */,
+				C3C9CDC4173682CA0033B28E /* CAT Convention Hall2.jpg in Resources */,
+				C3C9CDC6173685010033B28E /* จานดาวเทียม.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAT Plc";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,7 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAT Plc";
 				WRAPPER_EXTENSION = app;
 			};
