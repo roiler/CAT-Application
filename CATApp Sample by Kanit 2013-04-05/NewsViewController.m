@@ -14,7 +14,7 @@
 
 
 
-
+UIActivityIndicatorView *activityIndicator;
 
 //- (id)initWithStyle:(UITableViewStyle)style
 //{
@@ -33,6 +33,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    
     iTitle = [[NSMutableArray alloc] init];
     iDesc = [[NSMutableArray alloc]init];
     iPic  = [[NSMutableArray alloc]init];
@@ -182,18 +184,25 @@
 	//UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	
-	
+		
 	// If no cell is available, create a new one using the given identifier
 	if (cell == nil) {
 		//cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
 		
 		//add some extra text on table cell .........
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+		//cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell.textLabel.text = [iTitle objectAtIndex:indexPath.row];
+        cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
+        UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
+        cell.imageView.image = myImage;
+        
+	}else {
 
-		
-	}
-
+        
+        //cell.textLabel.text = [iTitle objectAtIndex:indexPath.row];
+        //cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
+    }
     
 
     
@@ -202,16 +211,16 @@
 	[cell.detailTextLabel setFont:[UIFont fontWithName:@"Verdana" size:12]];
 //	cell.textLabel.text=[[rssOutputData objectAtIndex:indexPath.row]xmltitle];
 //	cell.detailTextLabel.text=[[rssOutputData objectAtIndex:indexPath.row]xmldescription];
-    cell.textLabel.text= [iTitle objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
+    //cell.textLabel.text= [iTitle objectAtIndex:indexPath.row];
+    //cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
     cell.detailTextLabel.numberOfLines = 2;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     
 //    UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:
 //                                               [NSURL URLWithString: [[rssOutputData objectAtIndex:indexPath.row]xmllink]]]];
-    UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
-    cell.imageView.image = myImage;
+//    UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
+//    cell.imageView.image = myImage;
 	
 	return cell;
 }
@@ -273,10 +282,11 @@
 
 - (void)viewDidUnload
 {
-
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    //[activityIndicator stopAnimating];
 }
 //- (void)dealloc {
 //	[rssOutputData release];
