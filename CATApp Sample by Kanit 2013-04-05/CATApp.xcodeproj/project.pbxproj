@@ -42,9 +42,13 @@
 		B6589863173CB0B200982842 /* CAT_Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589862173CB0B200982842 /* CAT_Tower.jpg */; };
 		B6589865173CB29100982842 /* CAT_Nont.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589864173CB29100982842 /* CAT_Nont.jpg */; };
 		B6589867173CC33200982842 /* CAT_SaleGov.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589866173CC33200982842 /* CAT_SaleGov.jpg */; };
+		B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B69EDE89173EB5240002AF2A /* twitter-logo.png */; };
+		B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE8F174165E20002AF2A /* XMLStringFile.m */; };
+		B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE921741E34B0002AF2A /* WebNewsViewController.m */; };
 		B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */; };
 		B6CAA096170E69BE000F2DB6 /* CATLogo2X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */; };
 		B6CAA0B3170E8C4E000F2DB6 /* CATScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */; };
+		B6F5A698173CE58B006D9B0A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F5A697173CE58B006D9B0A /* NewsViewController.m */; };
 		C3C9CDBA173660D00033B28E /* trunked-mobile-radio-250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */; };
 		C3C9CDBC173666D30033B28E /* taxi_radio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDBB173666D30033B28E /* taxi_radio.jpg */; };
 		C3C9CDBE1736685C0033B28E /* Repeater_radio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDBD1736685C0033B28E /* Repeater_radio.jpg */; };
@@ -95,9 +99,16 @@
 		B6589862173CB0B200982842 /* CAT_Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Tower.jpg; sourceTree = "<group>"; };
 		B6589864173CB29100982842 /* CAT_Nont.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Nont.jpg; sourceTree = "<group>"; };
 		B6589866173CC33200982842 /* CAT_SaleGov.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_SaleGov.jpg; sourceTree = "<group>"; };
+		B69EDE89173EB5240002AF2A /* twitter-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-logo.png"; sourceTree = "<group>"; };
+		B69EDE8E174165E20002AF2A /* XMLStringFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStringFile.h; sourceTree = "<group>"; };
+		B69EDE8F174165E20002AF2A /* XMLStringFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLStringFile.m; sourceTree = "<group>"; };
+		B69EDE911741E34B0002AF2A /* WebNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNewsViewController.h; sourceTree = SOURCE_ROOT; };
+		B69EDE921741E34B0002AF2A /* WebNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNewsViewController.m; sourceTree = SOURCE_ROOT; };
 		B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo1X.png; sourceTree = "<group>"; };
 		B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo2X.png; sourceTree = "<group>"; };
 		B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATScreen.png; sourceTree = "<group>"; };
+		B6F5A696173CE58B006D9B0A /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = SOURCE_ROOT; };
+		B6F5A697173CE58B006D9B0A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = SOURCE_ROOT; };
 		C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trunked-mobile-radio-250x250.png"; sourceTree = "<group>"; };
 		C3C9CDBB173666D30033B28E /* taxi_radio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxi_radio.jpg; sourceTree = "<group>"; };
 		C3C9CDBD1736685C0033B28E /* Repeater_radio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Repeater_radio.jpg; sourceTree = "<group>"; };
@@ -131,6 +142,7 @@
 		B647F273170D5C4C00290C90 = {
 			isa = PBXGroup;
 			children = (
+				B69EDE89173EB5240002AF2A /* twitter-logo.png */,
 				B61E8ED1172FC02600B22AB3 /* CATBoard.png */,
 				C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */,
 				B61E8ECF172FAE3300B22AB3 /* CATLogo.png */,
@@ -178,12 +190,18 @@
 		B647F285170D5C4C00290C90 /* CATApp */ = {
 			isa = PBXGroup;
 			children = (
+				B69EDE8E174165E20002AF2A /* XMLStringFile.h */,
+				B69EDE8F174165E20002AF2A /* XMLStringFile.m */,
 				B658985A173C960F00982842 /* Location */,
 				B61E8EC2172F796200B22AB3 /* My */,
 				B647F2A2170D615100290C90 /* Asset */,
 				B647F28E170D5C4C00290C90 /* AppDelegate.h */,
 				B647F28F170D5C4C00290C90 /* AppDelegate.m */,
+				B69EDE911741E34B0002AF2A /* WebNewsViewController.h */,
+				B69EDE921741E34B0002AF2A /* WebNewsViewController.m */,
 				B647F297170D5C4C00290C90 /* MainStoryboard.storyboard */,
+				B6F5A696173CE58B006D9B0A /* NewsViewController.h */,
+				B6F5A697173CE58B006D9B0A /* NewsViewController.m */,
 				B658985F173C995000982842 /* LocationIOViewController.h */,
 				B6589860173C995000982842 /* LocationIOViewController.m */,
 				B647F29A170D5C4C00290C90 /* ViewController.h */,
@@ -320,6 +338,7 @@
 				B6589863173CB0B200982842 /* CAT_Tower.jpg in Resources */,
 				B6589865173CB29100982842 /* CAT_Nont.jpg in Resources */,
 				B6589867173CC33200982842 /* CAT_SaleGov.jpg in Resources */,
+				B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +353,9 @@
 				B647F290170D5C4C00290C90 /* AppDelegate.m in Sources */,
 				B647F29C170D5C4C00290C90 /* ViewController.m in Sources */,
 				B6589861173C995000982842 /* LocationIOViewController.m in Sources */,
+				B6F5A698173CE58B006D9B0A /* NewsViewController.m in Sources */,
+				B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */,
+				B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

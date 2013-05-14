@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class NewsViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    NewsViewController *viewController;
+}
 
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) IBOutlet NewsViewController *viewController;
+
 
 @end

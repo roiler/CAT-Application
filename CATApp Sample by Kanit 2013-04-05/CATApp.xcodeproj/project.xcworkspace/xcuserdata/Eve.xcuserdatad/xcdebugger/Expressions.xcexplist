@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NewsViewController tableView:cellForRowAtIndexPath:]:NewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "iPic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsViewController numberOfSectionsInTableView:]:NewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "iTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsViewController tableView:numberOfRowsInSection:]:NewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[rssOutputData count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsViewController parser:didEndElement:namespaceURI:qualifiedName:]:NewsViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

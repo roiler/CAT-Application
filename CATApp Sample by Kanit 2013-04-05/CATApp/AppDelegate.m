@@ -7,13 +7,17 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import "NewsViewController.h"
+#import "LocationIOViewController.h"
+#import "WebNewsViewController.h"
 
 @implementation AppDelegate
+@synthesize viewController;
 
 - (void)dealloc
 {
+    //[NewsviewController release];
     [_window release];
     [super dealloc];
 }
