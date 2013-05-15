@@ -11,6 +11,8 @@
 #import "NewsViewController.h"
 #import "LocationIOViewController.h"
 #import "WebNewsViewController.h"
+#import "DetailNewsViewController.h"
+
 
 @implementation AppDelegate
 @synthesize viewController;

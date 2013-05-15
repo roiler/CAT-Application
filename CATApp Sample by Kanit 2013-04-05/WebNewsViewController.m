@@ -16,6 +16,7 @@
 @synthesize WebNews;
 @synthesize iURL;
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,12 +29,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   
-    UIWebView *WebNews = [[UIWebView alloc] initWithFrame:self.view.frame];
-    NSURL *url = [NSURL URLWithString:iURL];
-    NSMutableURLRequest *urlReq = [[NSMutableURLRequest alloc] initWithURL:url];
-    [self.view addSubview:WebNews];
-    [WebNews loadRequest:urlReq];
+  
+    
+    
+    [self.navigationItem setTitle:@"Green"];
+
+    float w = self.view.frame.size.width;
+    UILabel *helloLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 30, w, 40)];
+    [helloLabel setTextColor:[UIColor whiteColor]];
+    [helloLabel setBackgroundColor:[UIColor clearColor]];
+    [helloLabel setTextAlignment:NSTextAlignmentCenter];
+    [helloLabel setText:[NSURL URLWithString:iURL]];
+    [self.view addSubview:helloLabel];
+    //[helloLabel release];
+
+    
+    
+    
+    
+//    UIWebView *WebNews = [[UIWebView alloc] initWithFrame:self.view.frame];
+//    NSURL *url = [NSURL URLWithString:iURL];
+//    NSMutableURLRequest *urlReq = [[NSMutableURLRequest alloc] initWithURL:url];
+//    [self.view addSubview:WebNews];
+//    [WebNews loadRequest:urlReq];
 	// Do any additional setup after loading the view.
 }
 

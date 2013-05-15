@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA5CB1743432500621235 /* DetailNewsViewController.m */; };
+		B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60AA5CC1743432500621235 /* DetailNewsViewController.xib */; };
 		B60B0BDF173021E00076E585 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B0BDE173021E00076E585 /* rss.png */; };
 		B61E8898172F5DC800B22AB3 /* CATDatacom.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8897172F5DC800B22AB3 /* CATDatacom.png */; };
 		B61E889A172F616400B22AB3 /* CATVoice.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8899172F616400B22AB3 /* CATVoice.png */; };
@@ -58,6 +60,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60AA5CA1743432400621235 /* DetailNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsViewController.h; sourceTree = "<group>"; };
+		B60AA5CB1743432500621235 /* DetailNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsViewController.m; sourceTree = "<group>"; };
+		B60AA5CC1743432500621235 /* DetailNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
 		B60B0BDE173021E00076E585 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
 		B61E8897172F5DC800B22AB3 /* CATDatacom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATDatacom.png; sourceTree = "<group>"; };
 		B61E8899172F616400B22AB3 /* CATVoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATVoice.png; sourceTree = "<group>"; };
@@ -202,6 +207,9 @@
 				B647F297170D5C4C00290C90 /* MainStoryboard.storyboard */,
 				B6F5A696173CE58B006D9B0A /* NewsViewController.h */,
 				B6F5A697173CE58B006D9B0A /* NewsViewController.m */,
+				B60AA5CA1743432400621235 /* DetailNewsViewController.h */,
+				B60AA5CB1743432500621235 /* DetailNewsViewController.m */,
+				B60AA5CC1743432500621235 /* DetailNewsViewController.xib */,
 				B658985F173C995000982842 /* LocationIOViewController.h */,
 				B6589860173C995000982842 /* LocationIOViewController.m */,
 				B647F29A170D5C4C00290C90 /* ViewController.h */,
@@ -339,6 +347,7 @@
 				B6589865173CB29100982842 /* CAT_Nont.jpg in Resources */,
 				B6589867173CC33200982842 /* CAT_SaleGov.jpg in Resources */,
 				B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */,
+				B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +365,7 @@
 				B6F5A698173CE58B006D9B0A /* NewsViewController.m in Sources */,
 				B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */,
 				B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */,
+				B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

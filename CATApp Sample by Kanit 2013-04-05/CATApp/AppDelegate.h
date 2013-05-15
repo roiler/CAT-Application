@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 @class NewsViewController;
+@class DetailNewsViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>{
     NewsViewController *viewController;
+   
+    
 }
-
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, retain) IBOutlet NewsViewController *viewController;
-
-
 @end

@@ -44,7 +44,6 @@
         <!--News View Controller - News-->
         <scene sceneID="arR-bs-GhU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R5h-Dw-uCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="FLq-EC-zk7" customClass="NewsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7gP-eb-obs">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
@@ -58,33 +57,9 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="News" id="ex1-K7-r1J"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R5h-Dw-uCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1350" y="7183"/>
-        </scene>
-        <!--WebNewViewController-->
-        <scene sceneID="LO2-l8-Z3e">
-            <objects>
-                <viewController id="knd-BV-mv1" userLabel="WebNewViewController" customClass="WebNewsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Flv-mx-5gu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" id="QcM-5M-7D7">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="iFB-X4-eXB" customClass="WebNew"/>
-                    <connections>
-                        <outlet property="WebNews" destination="QcM-5M-7D7" id="G3f-kK-LQ4"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DBK-xE-b1y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1749" y="7183"/>
         </scene>
         <!--Navigation Controller - News-->
         <scene sceneID="DCN-z9-neC">

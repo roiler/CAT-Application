@@ -8,6 +8,7 @@
 
 #import "NewsViewController.h"
 #import "WebNewsViewController.h"
+#import "DetailNewsViewController.h"
 
 @implementation NewsViewController
 //@synthesize tableview;
@@ -232,8 +233,13 @@ UIActivityIndicatorView *activityIndicator;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    WebNewsViewController *view = [[WebNewsViewController alloc] init];
+    DetailNewsViewController *view = [[DetailNewsViewController alloc] init];
     view.iURL = [iLink objectAtIndex:indexPath.row];
+    view.iTitle = [iTitle objectAtIndex:indexPath.row];
+    view.iDescription = [iDesc objectAtIndex:indexPath.row];
+    view.iPic = [iPic objectAtIndex:indexPath.row];
+    
+    
     [self.navigationController pushViewController:view animated:YES];
     
     //NSLog(@"Selected Row : %d",indexPath.row);

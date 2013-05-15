@@ -15,4 +15,5 @@
 @property (retain, nonatomic) IBOutlet UIWebView *WebNews;
 @property (strong, nonatomic) NSString *iURL;
 
+
 @end
