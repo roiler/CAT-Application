@@ -35,7 +35,6 @@
 		B647F296170D5C4C00290C90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F295170D5C4C00290C90 /* Default-568h@2x.png */; };
 		B647F299170D5C4C00290C90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B647F297170D5C4C00290C90 /* MainStoryboard.storyboard */; };
 		B647F29C170D5C4C00290C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B647F29B170D5C4C00290C90 /* ViewController.m */; };
-		B647F2A4170D61A200290C90 /* myServiceLunchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F2A3170D61A200290C90 /* myServiceLunchimage.png */; };
 		B647F2A6170D622F00290C90 /* myLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F2A5170D622F00290C90 /* myLogo1.png */; };
 		B647F2A8170D623200290C90 /* myLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F2A7170D623200290C90 /* myLogo.png */; };
 		B658985C173C962D00982842 /* CAT_Laksi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B658985B173C962D00982842 /* CAT_Laksi.jpg */; };
@@ -94,7 +93,6 @@
 		B647F298170D5C4C00290C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B647F29A170D5C4C00290C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B647F29B170D5C4C00290C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B647F2A3170D61A200290C90 /* myServiceLunchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myServiceLunchimage.png; sourceTree = "<group>"; };
 		B647F2A5170D622F00290C90 /* myLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLogo1.png; sourceTree = "<group>"; };
 		B647F2A7170D623200290C90 /* myLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLogo.png; sourceTree = "<group>"; };
 		B658985B173C962D00982842 /* CAT_Laksi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Laksi.jpg; sourceTree = "<group>"; };
@@ -241,7 +239,6 @@
 				B61E8EB4172F683700B22AB3 /* file.png */,
 				B61E8EB5172F683700B22AB3 /* info.png */,
 				B61E8EB6172F683700B22AB3 /* satellite.png */,
-				B647F2A3170D61A200290C90 /* myServiceLunchimage.png */,
 			);
 			name = Asset;
 			sourceTree = "<group>";
@@ -314,7 +311,6 @@
 				B647F294170D5C4C00290C90 /* Default@2x.png in Resources */,
 				B647F296170D5C4C00290C90 /* Default-568h@2x.png in Resources */,
 				B647F299170D5C4C00290C90 /* MainStoryboard.storyboard in Resources */,
-				B647F2A4170D61A200290C90 /* myServiceLunchimage.png in Resources */,
 				B647F2A6170D622F00290C90 /* myLogo1.png in Resources */,
 				B647F2A8170D623200290C90 /* myLogo.png in Resources */,
 				B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */,
