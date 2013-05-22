@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6062BDE174806C50087304D /* CAT_WiFi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6062BDC174806C50087304D /* CAT_WiFi1.jpg */; };
+		B6062BDF174806C50087304D /* CAT_WiFi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6062BDD174806C50087304D /* CAT_WiFi2.jpg */; };
+		B6062BE11748084D0087304D /* CAT_WiFi4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6062BE01748084D0087304D /* CAT_WiFi4.jpg */; };
+		B6062BE3174808BB0087304D /* CAT_WiFi3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6062BE2174808BB0087304D /* CAT_WiFi3.png */; };
+		B6062BE5174A09170087304D /* CAT_Hotnet.png in Resources */ = {isa = PBXBuildFile; fileRef = B6062BE4174A09170087304D /* CAT_Hotnet.png */; };
+		B6062BE7174A09FB0087304D /* CAT_Hotnet1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6062BE6174A09FB0087304D /* CAT_Hotnet1.jpg */; };
 		B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA5CB1743432500621235 /* DetailNewsViewController.m */; };
 		B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60AA5CC1743432500621235 /* DetailNewsViewController.xib */; };
 		B60B0BDF173021E00076E585 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B0BDE173021E00076E585 /* rss.png */; };
@@ -43,6 +49,8 @@
 		B6589863173CB0B200982842 /* CAT_Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589862173CB0B200982842 /* CAT_Tower.jpg */; };
 		B6589865173CB29100982842 /* CAT_Nont.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589864173CB29100982842 /* CAT_Nont.jpg */; };
 		B6589867173CC33200982842 /* CAT_SaleGov.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589866173CC33200982842 /* CAT_SaleGov.jpg */; };
+		B68557B9174C686300FCE15B /* CAT_ON_Net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68557B8174C686300FCE15B /* CAT_ON_Net.jpg */; };
+		B68557BB174C69A800FCE15B /* CAT_ON_Net2.png in Resources */ = {isa = PBXBuildFile; fileRef = B68557BA174C69A800FCE15B /* CAT_ON_Net2.png */; };
 		B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B69EDE89173EB5240002AF2A /* twitter-logo.png */; };
 		B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE8F174165E20002AF2A /* XMLStringFile.m */; };
 		B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE921741E34B0002AF2A /* WebNewsViewController.m */; };
@@ -59,6 +67,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6062BDC174806C50087304D /* CAT_WiFi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_WiFi1.jpg; sourceTree = "<group>"; };
+		B6062BDD174806C50087304D /* CAT_WiFi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_WiFi2.jpg; sourceTree = "<group>"; };
+		B6062BE01748084D0087304D /* CAT_WiFi4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_WiFi4.jpg; sourceTree = "<group>"; };
+		B6062BE2174808BB0087304D /* CAT_WiFi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAT_WiFi3.png; sourceTree = "<group>"; };
+		B6062BE4174A09170087304D /* CAT_Hotnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAT_Hotnet.png; sourceTree = "<group>"; };
+		B6062BE6174A09FB0087304D /* CAT_Hotnet1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Hotnet1.jpg; sourceTree = "<group>"; };
 		B60AA5CA1743432400621235 /* DetailNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsViewController.h; sourceTree = "<group>"; };
 		B60AA5CB1743432500621235 /* DetailNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsViewController.m; sourceTree = "<group>"; };
 		B60AA5CC1743432500621235 /* DetailNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
@@ -102,6 +116,8 @@
 		B6589862173CB0B200982842 /* CAT_Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Tower.jpg; sourceTree = "<group>"; };
 		B6589864173CB29100982842 /* CAT_Nont.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Nont.jpg; sourceTree = "<group>"; };
 		B6589866173CC33200982842 /* CAT_SaleGov.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_SaleGov.jpg; sourceTree = "<group>"; };
+		B68557B8174C686300FCE15B /* CAT_ON_Net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_ON_Net.jpg; sourceTree = "<group>"; };
+		B68557BA174C69A800FCE15B /* CAT_ON_Net2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAT_ON_Net2.png; sourceTree = "<group>"; };
 		B69EDE89173EB5240002AF2A /* twitter-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-logo.png"; sourceTree = "<group>"; };
 		B69EDE8E174165E20002AF2A /* XMLStringFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStringFile.h; sourceTree = "<group>"; };
 		B69EDE8F174165E20002AF2A /* XMLStringFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLStringFile.m; sourceTree = "<group>"; };
@@ -134,6 +150,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6062BDB174806A10087304D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68557BA174C69A800FCE15B /* CAT_ON_Net2.png */,
+				B68557B8174C686300FCE15B /* CAT_ON_Net.jpg */,
+				B6062BE6174A09FB0087304D /* CAT_Hotnet1.jpg */,
+				B6062BE4174A09170087304D /* CAT_Hotnet.png */,
+				B6062BE2174808BB0087304D /* CAT_WiFi3.png */,
+				B6062BE01748084D0087304D /* CAT_WiFi4.jpg */,
+				B6062BDC174806C50087304D /* CAT_WiFi1.jpg */,
+				B6062BDD174806C50087304D /* CAT_WiFi2.jpg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B61E8EC2172F796200B22AB3 /* My */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +224,7 @@
 		B647F285170D5C4C00290C90 /* CATApp */ = {
 			isa = PBXGroup;
 			children = (
+				B6062BDB174806A10087304D /* Products */,
 				B69EDE8E174165E20002AF2A /* XMLStringFile.h */,
 				B69EDE8F174165E20002AF2A /* XMLStringFile.m */,
 				B658985A173C960F00982842 /* Location */,
@@ -344,6 +376,14 @@
 				B6589867173CC33200982842 /* CAT_SaleGov.jpg in Resources */,
 				B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */,
 				B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */,
+				B6062BDE174806C50087304D /* CAT_WiFi1.jpg in Resources */,
+				B6062BDF174806C50087304D /* CAT_WiFi2.jpg in Resources */,
+				B6062BE11748084D0087304D /* CAT_WiFi4.jpg in Resources */,
+				B6062BE3174808BB0087304D /* CAT_WiFi3.png in Resources */,
+				B6062BE5174A09170087304D /* CAT_Hotnet.png in Resources */,
+				B6062BE7174A09FB0087304D /* CAT_Hotnet1.jpg in Resources */,
+				B68557B9174C686300FCE15B /* CAT_ON_Net.jpg in Resources */,
+				B68557BB174C69A800FCE15B /* CAT_ON_Net2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
