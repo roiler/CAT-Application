@@ -9,14 +9,15 @@
 #import "NewsViewController.h"
 #import "WebNewsViewController.h"
 #import "DetailNewsViewController.h"
-
-@implementation NewsViewController
-//@synthesize tableview;
+#import "myActivityIndicator.h"
 
 
+@implementation NewsViewController{
+    dispatch_queue_t backgroundQueue;
+    UIBackgroundTaskIdentifier backgroundTaskIdentifier;
 
-UIActivityIndicatorView *activityIndicator;
-
+}
+@synthesize vControllerHome;
 //- (id)initWithStyle:(UITableViewStyle)style
 //{
 //    self = [super initWithStyle:style];
@@ -31,37 +32,59 @@ UIActivityIndicatorView *activityIndicator;
     }
     return self;
 }
+
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
+//    
+    vControllerHome = [[myActivityIndicator alloc] initWithNibName:@"myActivityIndicator" bundle:nil];
+    vControllerHome.view.frame =CGRectMake(0, 0, 320, self.view.frame.size.height);
+    [self.view addSubview:vControllerHome.view];
 
     
     iTitle = [[NSMutableArray alloc] init];
     iDesc = [[NSMutableArray alloc]init];
     iPic  = [[NSMutableArray alloc]init];
     iLink = [[NSMutableArray alloc]init];
-    NSData *xmlData=[[NSData alloc]initWithContentsOfURL:[NSURL URLWithString:@"http://www.cattelecom.com/web_data/uploads/xml/export.php?lang=th"]];
-    //allocate memory for parser as well as
-    xmlParserObject =[[NSXMLParser alloc]initWithData:xmlData];
-    [xmlParserObject setDelegate:self];
     
-    //asking the xmlparser object to beggin with its parsing
-    [xmlParserObject parse];
     
-    //releasing the object of NSData as a part of memory management
-    [xmlData release];
-
-
-
- 
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSLog(@"Before Loadata");
+    
+        NSString *urlString = @"http://www.cattelecom.com/web_data/uploads/xml/export.php?lang=th";
+
+       NSURL *url = [NSURL URLWithString:urlString];
+       //NSURLRequest *request = [NSURLRequest requestWithURL:url];
+       //[[[NSURLConnection alloc] initWithRequest:request delegate:self] autorelease];
+       
+    backgroundQueue = dispatch_queue_create("com,mmios,backgroundtask", NULL);
+    
+    dispatch_async(backgroundQueue,
+                    ^{
+
+                       NSLog(@"Loading Data");
+                       NSData *xmlData=[[NSData alloc]initWithContentsOfURL:url];
+                       NSLog(@"Loaded Data");
+                       NSLog(@"Parsing Data");
+                       xmlParserObject =[[NSXMLParser alloc]initWithData:xmlData];
+                       [xmlParserObject setDelegate:self];
+                       [xmlParserObject parse];
+                       [xmlData release];
+                       NSLog(@"Parsed Data");
+                       
+              dispatch_async(dispatch_get_main_queue(), ^{
+    
+                    [self.tableview reloadData];
+                    [vControllerHome.view removeFromSuperview];
+                    });
+                
+                       
+                     
+                    }
+                  );
+
 }
-
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qualifiedName attributes:(NSDictionary *)attributeDict
 {
@@ -88,8 +111,6 @@ UIActivityIndicatorView *activityIndicator;
     //NSLog(@"node content = %@",nodecontent);
     
 }
-
-//bellow delegate method specify when it encounter end tag of specific that tag
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {
@@ -125,22 +146,21 @@ UIActivityIndicatorView *activityIndicator;
 		[rssOutputData addObject:xmlStringFileObject];
 		[xmlStringFileObject release];
         xmlStringFileObject = nil;
+
 	}
 	//release the data from mutable string variable
 	[nodecontent release];
     
 	//reallocate the memory to get new content data from file
 	nodecontent=[[NSMutableString alloc]init];
+    
 }
-
-
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 	return 1;
@@ -150,53 +170,47 @@ UIActivityIndicatorView *activityIndicator;
 {
 
 	return[iTitle count];
-    //NSLog([rssOutputData count]);
-   //return 100;
     
 	
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//	static NSString *CellIdentifier = @"Cell";
-//    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    
-//    if (cell == nil){
-//        NSLog(@"Create new Cell");
-//        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-//    }else{
-//        NSLog(@"Use Old Cell");
-//    }
-//    [cell.textLabel setText:[iTitle objectAtIndex:indexPath.row]];
-//
-//    
-//    [cell.detailTextLabel setText:@"Test"];
-//    
-//    return cell;
-//    
-    
+
     
     //---------------------
-    
-    
-	static NSString *CellIdentifier = @"Cell";
+ 	static NSString *CellIdentifier = @"Cell";
 	
-	// Try to retrieve from the table view a now-unused cell with the given identifier
-	//UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 		
 	// If no cell is available, create a new one using the given identifier
 	if (cell == nil) {
-		//cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
-		
-		//add some extra text on table cell .........
-		//cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
         cell.textLabel.text = [iTitle objectAtIndex:indexPath.row];
         cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
-        UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
-        cell.imageView.image = myImage;
+        //
+                                 
+//        UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
+//        cell.imageView.image = myImage;
+
+        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
+        
+        dispatch_async(queue, ^{
+            NSLog(@"Before LoadImage");
+            UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
+
+            NSLog(@"After LoadImage");
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [[cell imageView] setImage:myImage];
+                [cell setNeedsLayout];
+            NSLog(@"Alloc Image");
+            });
+            
+        });
+
+       dispatch_release(queue);
+        
         
 	}else {
 
@@ -204,8 +218,6 @@ UIActivityIndicatorView *activityIndicator;
         //cell.textLabel.text = [iTitle objectAtIndex:indexPath.row];
         //cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
     }
-    
-
     
 	// Set up the cell
 	[cell.textLabel setFont:[UIFont fontWithName:@"Verdana" size:12]];
@@ -217,13 +229,14 @@ UIActivityIndicatorView *activityIndicator;
     cell.detailTextLabel.numberOfLines = 2;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
-    
 //    UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:
 //                                               [NSURL URLWithString: [[rssOutputData objectAtIndex:indexPath.row]xmllink]]]];
 //    UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
 //    cell.imageView.image = myImage;
-	
-	return cell;
+   
+    
+    return cell;
+    
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -232,8 +245,13 @@ UIActivityIndicatorView *activityIndicator;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+
+    
     
     DetailNewsViewController *view = [[DetailNewsViewController alloc] init];
+
+
+    
     view.iURL = [iLink objectAtIndex:indexPath.row];
     view.iTitle = [iTitle objectAtIndex:indexPath.row];
     view.iDescription = [iDesc objectAtIndex:indexPath.row];
@@ -244,7 +262,8 @@ UIActivityIndicatorView *activityIndicator;
     
     //NSLog(@"Selected Row : %d",indexPath.row);
 
-    
+   
+
     
 }
 /*
@@ -290,6 +309,7 @@ UIActivityIndicatorView *activityIndicator;
 {
     
     [super viewDidUnload];
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
     //[activityIndicator stopAnimating];
@@ -300,4 +320,9 @@ UIActivityIndicatorView *activityIndicator;
 //    [super dealloc];
 //}
 
+- (void)dealloc {
+  
+    dispatch_release(backgroundQueue);
+    [super dealloc];
+}
 @end

@@ -22,6 +22,7 @@
 @synthesize iPic;
 @synthesize iImage;
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -34,8 +35,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+ 
     lblTitle.text = iTitle;
-    lblDescription.text = [@"     " stringByAppendingFormat:iDescription];
+    lblDescription.text = [NSString stringWithFormat:@"     %@",iDescription];
+    
     UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:iPic]]];
 
     iImage.image = myImage;

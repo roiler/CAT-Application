@@ -16,6 +16,8 @@
 		B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA5CB1743432500621235 /* DetailNewsViewController.m */; };
 		B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60AA5CC1743432500621235 /* DetailNewsViewController.xib */; };
 		B60B0BDF173021E00076E585 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B0BDE173021E00076E585 /* rss.png */; };
+		B60F4609174CAA770041259A /* myActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F4607174CAA770041259A /* myActivityIndicator.m */; };
+		B60F460A174CAA770041259A /* myActivityIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60F4608174CAA770041259A /* myActivityIndicator.xib */; };
 		B61E8898172F5DC800B22AB3 /* CATDatacom.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8897172F5DC800B22AB3 /* CATDatacom.png */; };
 		B61E889A172F616400B22AB3 /* CATVoice.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8899172F616400B22AB3 /* CATVoice.png */; };
 		B61E889C172F647200B22AB3 /* CATHinet.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E889B172F647200B22AB3 /* CATHinet.png */; };
@@ -77,6 +79,9 @@
 		B60AA5CB1743432500621235 /* DetailNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsViewController.m; sourceTree = "<group>"; };
 		B60AA5CC1743432500621235 /* DetailNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
 		B60B0BDE173021E00076E585 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
+		B60F4606174CAA770041259A /* myActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myActivityIndicator.h; sourceTree = "<group>"; };
+		B60F4607174CAA770041259A /* myActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myActivityIndicator.m; sourceTree = "<group>"; };
+		B60F4608174CAA770041259A /* myActivityIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myActivityIndicator.xib; sourceTree = "<group>"; };
 		B61E8897172F5DC800B22AB3 /* CATDatacom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATDatacom.png; sourceTree = "<group>"; };
 		B61E8899172F616400B22AB3 /* CATVoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATVoice.png; sourceTree = "<group>"; };
 		B61E889B172F647200B22AB3 /* CATHinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATHinet.png; sourceTree = "<group>"; };
@@ -237,6 +242,9 @@
 				B647F297170D5C4C00290C90 /* MainStoryboard.storyboard */,
 				B6F5A696173CE58B006D9B0A /* NewsViewController.h */,
 				B6F5A697173CE58B006D9B0A /* NewsViewController.m */,
+				B60F4606174CAA770041259A /* myActivityIndicator.h */,
+				B60F4607174CAA770041259A /* myActivityIndicator.m */,
+				B60F4608174CAA770041259A /* myActivityIndicator.xib */,
 				B60AA5CA1743432400621235 /* DetailNewsViewController.h */,
 				B60AA5CB1743432500621235 /* DetailNewsViewController.m */,
 				B60AA5CC1743432500621235 /* DetailNewsViewController.xib */,
@@ -384,6 +392,7 @@
 				B6062BE7174A09FB0087304D /* CAT_Hotnet1.jpg in Resources */,
 				B68557B9174C686300FCE15B /* CAT_ON_Net.jpg in Resources */,
 				B68557BB174C69A800FCE15B /* CAT_ON_Net2.png in Resources */,
+				B60F460A174CAA770041259A /* myActivityIndicator.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +411,7 @@
 				B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */,
 				B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */,
 				B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */,
+				B60F4609174CAA770041259A /* myActivityIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

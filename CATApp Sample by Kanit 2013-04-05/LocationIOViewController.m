@@ -24,6 +24,9 @@
     }
     return self;
 }
+- (IBAction)callcatcontact {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://1322"]];
+}
 - (IBAction)callcatlaksi {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://021043000"]];
 }

@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "XMLStringFile.h"
+#import <dispatch/dispatch.h>
+
+
 @interface NewsViewController : UIViewController <NSXMLParserDelegate>
 {
     NSMutableArray *iDesc,*iPic;
     NSMutableArray *iTitle,*iLink;
     
-    
-	IBOutlet UITableView *tableview;
-	
 	//mutable array to store data from rss feed and display in table view
 	NSMutableArray *rssOutputData;
     
@@ -30,13 +30,13 @@
     
     XMLStringFile *xmlStringFileObject;
     NSString *eUrl;
-
-	
 	
 	//to store data from xml node
-		
+
+    
 }
-//@property(nonatomic,retain)IBOutlet UITableView *tableview;
+@property(nonatomic,retain)IBOutlet UIViewController *vControllerHome;
+@property(nonatomic,retain) IBOutlet UITableView *tableview;
 
 
 @end
