@@ -32,6 +32,10 @@
 		B61E8ECE172F9D6A00B22AB3 /* CATPlace.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */; };
 		B61E8ED0172FAE3300B22AB3 /* CATLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ECF172FAE3300B22AB3 /* CATLogo.png */; };
 		B61E8ED2172FC02600B22AB3 /* CATBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8ED1172FC02600B22AB3 /* CATBoard.png */; };
+		B629D63A1779466F0019B03E /* cat001_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B629D6391779466F0019B03E /* cat001_01.jpg */; };
+		B629D63C177949390019B03E /* cat009_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B629D63B177949390019B03E /* cat009_01.jpg */; };
+		B629D63E17794B960019B03E /* cat_thaicard_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B629D63D17794B960019B03E /* cat_thaicard_01.jpg */; };
+		B629D64017794DC60019B03E /* cat_thaicard_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B629D63F17794DC60019B03E /* cat_thaicard_02.jpg */; };
 		B647F280170D5C4C00290C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F27F170D5C4C00290C90 /* UIKit.framework */; };
 		B647F282170D5C4C00290C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F281170D5C4C00290C90 /* Foundation.framework */; };
 		B647F284170D5C4C00290C90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647F283170D5C4C00290C90 /* CoreGraphics.framework */; };
@@ -42,6 +46,9 @@
 		B647F29C170D5C4C00290C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B647F29B170D5C4C00290C90 /* ViewController.m */; };
 		B647F2A6170D622F00290C90 /* myLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F2A5170D622F00290C90 /* myLogo1.png */; };
 		B647F2A8170D623200290C90 /* myLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B647F2A7170D623200290C90 /* myLogo.png */; };
+		B648D4BD1791B68300369B4A /* cat_phonenet_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B648D4BC1791B68300369B4A /* cat_phonenet_01.jpg */; };
+		B648D4BF1791B9C700369B4A /* cat_phonenet_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B648D4BE1791B9C700369B4A /* cat_phonenet_02.jpg */; };
+		B648D4C11791BACB00369B4A /* click_connect_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B648D4C01791BACB00369B4A /* click_connect_01.jpg */; };
 		B658985C173C962D00982842 /* CAT_Laksi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B658985B173C962D00982842 /* CAT_Laksi.jpg */; };
 		B658985E173C970C00982842 /* callnow.png in Resources */ = {isa = PBXBuildFile; fileRef = B658985D173C970C00982842 /* callnow.png */; };
 		B6589861173C995000982842 /* LocationIOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589860173C995000982842 /* LocationIOViewController.m */; };
@@ -79,6 +86,27 @@
 		B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B69EDE89173EB5240002AF2A /* twitter-logo.png */; };
 		B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE8F174165E20002AF2A /* XMLStringFile.m */; };
 		B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE921741E34B0002AF2A /* WebNewsViewController.m */; };
+		B6B625121781625400F662A9 /* cat2call_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B625111781625400F662A9 /* cat2call_01.jpg */; };
+		B6B62514178164C000F662A9 /* cat2callplus_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B62513178164C000F662A9 /* cat2callplus_01.jpg */; };
+		B6B625161781651000F662A9 /* cat2callplus_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B625151781651000F662A9 /* cat2callplus_02.jpg */; };
+		B6B62518178166A600F662A9 /* cat2callplus_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B62517178166A600F662A9 /* cat2callplus_03.jpg */; };
+		B6B6251A1781681600F662A9 /* cat2callplus_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B625191781681600F662A9 /* cat2callplus_04.jpg */; };
+		B6B914BE178D9A1000A18BAB /* cat2callplus_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914BD178D9A1000A18BAB /* cat2callplus_05.jpg */; };
+		B6B914C0178D9B2F00A18BAB /* international_callforward_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914BF178D9B2F00A18BAB /* international_callforward_01.jpg */; };
+		B6B914C2178D9D0500A18BAB /* international forward_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B914C1178D9D0500A18BAB /* international forward_02.png */; };
+		B6B914C4178D9DE600A18BAB /* multi_conferance_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914C3178D9DE600A18BAB /* multi_conferance_01.jpg */; };
+		B6B914C6178D9DF400A18BAB /* multi_conferance_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914C5178D9DF400A18BAB /* multi_conferance_02.jpg */; };
+		B6B914C8178DA53000A18BAB /* one_connect_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914C7178DA53000A18BAB /* one_connect_01.jpg */; };
+		B6B914CA178DA6E500A18BAB /* cat_host_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914C9178DA6E500A18BAB /* cat_host_01.jpg */; };
+		B6B914CC178DA81F00A18BAB /* cat_host_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B914CB178DA81F00A18BAB /* cat_host_02.png */; };
+		B6B914D0178DA8E000A18BAB /* cat_host_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914CD178DA8E000A18BAB /* cat_host_06.jpg */; };
+		B6B914D1178DA8E000A18BAB /* cat_host_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914CE178DA8E000A18BAB /* cat_host_05.jpg */; };
+		B6B914D2178DA8E000A18BAB /* cat_host_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914CF178DA8E000A18BAB /* cat_host_04.jpg */; };
+		B6B914D4178DA8EF00A18BAB /* cat_host_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D3178DA8EF00A18BAB /* cat_host_03.jpg */; };
+		B6B914D7178DACB500A18BAB /* cats_SIP_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D5178DACB500A18BAB /* cats_SIP_02.jpg */; };
+		B6B914D8178DACB500A18BAB /* cats_SIP_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D6178DACB500A18BAB /* cats_SIP_01.jpg */; };
+		B6B914DA178DAE2800A18BAB /* cat_audiocon_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D9178DAE2800A18BAB /* cat_audiocon_01.jpg */; };
+		B6B914DC178DB05100A18BAB /* cat_audiocon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B914DB178DB05100A18BAB /* cat_audiocon_02.png */; };
 		B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */; };
 		B6CAA096170E69BE000F2DB6 /* CATLogo2X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */; };
 		B6CAA0B3170E8C4E000F2DB6 /* CATScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */; };
@@ -119,6 +147,10 @@
 		B61E8ECD172F9D6A00B22AB3 /* CATPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATPlace.png; sourceTree = "<group>"; };
 		B61E8ECF172FAE3300B22AB3 /* CATLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo.png; sourceTree = "<group>"; };
 		B61E8ED1172FC02600B22AB3 /* CATBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATBoard.png; sourceTree = "<group>"; };
+		B629D6391779466F0019B03E /* cat001_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat001_01.jpg; sourceTree = SOURCE_ROOT; };
+		B629D63B177949390019B03E /* cat009_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat009_01.jpg; sourceTree = SOURCE_ROOT; };
+		B629D63D17794B960019B03E /* cat_thaicard_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_thaicard_01.jpg; sourceTree = SOURCE_ROOT; };
+		B629D63F17794DC60019B03E /* cat_thaicard_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_thaicard_02.jpg; sourceTree = SOURCE_ROOT; };
 		B647F27C170D5C4C00290C90 /* CAT Plc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAT Plc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B647F27F170D5C4C00290C90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B647F281170D5C4C00290C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +166,9 @@
 		B647F29B170D5C4C00290C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B647F2A5170D622F00290C90 /* myLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLogo1.png; sourceTree = "<group>"; };
 		B647F2A7170D623200290C90 /* myLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLogo.png; sourceTree = "<group>"; };
+		B648D4BC1791B68300369B4A /* cat_phonenet_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_phonenet_01.jpg; sourceTree = SOURCE_ROOT; };
+		B648D4BE1791B9C700369B4A /* cat_phonenet_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_phonenet_02.jpg; sourceTree = SOURCE_ROOT; };
+		B648D4C01791BACB00369B4A /* click_connect_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = click_connect_01.jpg; sourceTree = SOURCE_ROOT; };
 		B658985B173C962D00982842 /* CAT_Laksi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_Laksi.jpg; sourceTree = "<group>"; };
 		B658985D173C970C00982842 /* callnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callnow.png; sourceTree = "<group>"; };
 		B658985F173C995000982842 /* LocationIOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIOViewController.h; sourceTree = SOURCE_ROOT; };
@@ -174,6 +209,27 @@
 		B69EDE8F174165E20002AF2A /* XMLStringFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLStringFile.m; sourceTree = "<group>"; };
 		B69EDE911741E34B0002AF2A /* WebNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNewsViewController.h; sourceTree = SOURCE_ROOT; };
 		B69EDE921741E34B0002AF2A /* WebNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNewsViewController.m; sourceTree = SOURCE_ROOT; };
+		B6B625111781625400F662A9 /* cat2call_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2call_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B62513178164C000F662A9 /* cat2callplus_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2callplus_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B625151781651000F662A9 /* cat2callplus_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2callplus_02.jpg; sourceTree = SOURCE_ROOT; };
+		B6B62517178166A600F662A9 /* cat2callplus_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2callplus_03.jpg; sourceTree = SOURCE_ROOT; };
+		B6B625191781681600F662A9 /* cat2callplus_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2callplus_04.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914BD178D9A1000A18BAB /* cat2callplus_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2callplus_05.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914BF178D9B2F00A18BAB /* international_callforward_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = international_callforward_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914C1178D9D0500A18BAB /* international forward_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "international forward_02.png"; sourceTree = SOURCE_ROOT; };
+		B6B914C3178D9DE600A18BAB /* multi_conferance_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = multi_conferance_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914C5178D9DF400A18BAB /* multi_conferance_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = multi_conferance_02.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914C7178DA53000A18BAB /* one_connect_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one_connect_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914C9178DA6E500A18BAB /* cat_host_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_host_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914CB178DA81F00A18BAB /* cat_host_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_host_02.png; sourceTree = SOURCE_ROOT; };
+		B6B914CD178DA8E000A18BAB /* cat_host_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_host_06.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914CE178DA8E000A18BAB /* cat_host_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_host_05.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914CF178DA8E000A18BAB /* cat_host_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_host_04.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914D3178DA8EF00A18BAB /* cat_host_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_host_03.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914D5178DACB500A18BAB /* cats_SIP_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cats_SIP_02.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914D6178DACB500A18BAB /* cats_SIP_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cats_SIP_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914D9178DAE2800A18BAB /* cat_audiocon_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_audiocon_01.jpg; sourceTree = SOURCE_ROOT; };
+		B6B914DB178DB05100A18BAB /* cat_audiocon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_audiocon_02.png; sourceTree = SOURCE_ROOT; };
 		B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo1X.png; sourceTree = "<group>"; };
 		B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo2X.png; sourceTree = "<group>"; };
 		B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATScreen.png; sourceTree = "<group>"; };
@@ -204,6 +260,34 @@
 		B6062BDB174806A10087304D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				B648D4C01791BACB00369B4A /* click_connect_01.jpg */,
+				B648D4BE1791B9C700369B4A /* cat_phonenet_02.jpg */,
+				B648D4BC1791B68300369B4A /* cat_phonenet_01.jpg */,
+				B6B914DB178DB05100A18BAB /* cat_audiocon_02.png */,
+				B6B914D9178DAE2800A18BAB /* cat_audiocon_01.jpg */,
+				B6B914D5178DACB500A18BAB /* cats_SIP_02.jpg */,
+				B6B914D6178DACB500A18BAB /* cats_SIP_01.jpg */,
+				B6B914D3178DA8EF00A18BAB /* cat_host_03.jpg */,
+				B6B914CD178DA8E000A18BAB /* cat_host_06.jpg */,
+				B6B914CE178DA8E000A18BAB /* cat_host_05.jpg */,
+				B6B914CF178DA8E000A18BAB /* cat_host_04.jpg */,
+				B6B914CB178DA81F00A18BAB /* cat_host_02.png */,
+				B6B914C9178DA6E500A18BAB /* cat_host_01.jpg */,
+				B6B914C7178DA53000A18BAB /* one_connect_01.jpg */,
+				B6B914C5178D9DF400A18BAB /* multi_conferance_02.jpg */,
+				B6B914C3178D9DE600A18BAB /* multi_conferance_01.jpg */,
+				B6B914C1178D9D0500A18BAB /* international forward_02.png */,
+				B6B914BF178D9B2F00A18BAB /* international_callforward_01.jpg */,
+				B6B914BD178D9A1000A18BAB /* cat2callplus_05.jpg */,
+				B6B625191781681600F662A9 /* cat2callplus_04.jpg */,
+				B6B62517178166A600F662A9 /* cat2callplus_03.jpg */,
+				B6B625151781651000F662A9 /* cat2callplus_02.jpg */,
+				B6B62513178164C000F662A9 /* cat2callplus_01.jpg */,
+				B6B625111781625400F662A9 /* cat2call_01.jpg */,
+				B629D63F17794DC60019B03E /* cat_thaicard_02.jpg */,
+				B629D63D17794B960019B03E /* cat_thaicard_01.jpg */,
+				B629D63B177949390019B03E /* cat009_01.jpg */,
+				B629D6391779466F0019B03E /* cat001_01.jpg */,
 				B65DF4CC175DDC0100521296 /* sat connect solution.jpg */,
 				B65DF4C2175DDA7500521296 /* CAT TV transmission2.jpg */,
 				B65DF4C3175DDA7500521296 /* CAT TV transmission3.jpg */,
@@ -485,6 +569,34 @@
 				B65DF4CA175DDA7500521296 /* CAT TV transmission5.jpg in Resources */,
 				B65DF4CB175DDA7500521296 /* CAT TV transmission6.jpg in Resources */,
 				B65DF4CD175DDC0100521296 /* sat connect solution.jpg in Resources */,
+				B629D63A1779466F0019B03E /* cat001_01.jpg in Resources */,
+				B629D63C177949390019B03E /* cat009_01.jpg in Resources */,
+				B629D63E17794B960019B03E /* cat_thaicard_01.jpg in Resources */,
+				B629D64017794DC60019B03E /* cat_thaicard_02.jpg in Resources */,
+				B6B625121781625400F662A9 /* cat2call_01.jpg in Resources */,
+				B6B62514178164C000F662A9 /* cat2callplus_01.jpg in Resources */,
+				B6B625161781651000F662A9 /* cat2callplus_02.jpg in Resources */,
+				B6B62518178166A600F662A9 /* cat2callplus_03.jpg in Resources */,
+				B6B6251A1781681600F662A9 /* cat2callplus_04.jpg in Resources */,
+				B6B914BE178D9A1000A18BAB /* cat2callplus_05.jpg in Resources */,
+				B6B914C0178D9B2F00A18BAB /* international_callforward_01.jpg in Resources */,
+				B6B914C2178D9D0500A18BAB /* international forward_02.png in Resources */,
+				B6B914C4178D9DE600A18BAB /* multi_conferance_01.jpg in Resources */,
+				B6B914C6178D9DF400A18BAB /* multi_conferance_02.jpg in Resources */,
+				B6B914C8178DA53000A18BAB /* one_connect_01.jpg in Resources */,
+				B6B914CA178DA6E500A18BAB /* cat_host_01.jpg in Resources */,
+				B6B914CC178DA81F00A18BAB /* cat_host_02.png in Resources */,
+				B6B914D0178DA8E000A18BAB /* cat_host_06.jpg in Resources */,
+				B6B914D1178DA8E000A18BAB /* cat_host_05.jpg in Resources */,
+				B6B914D2178DA8E000A18BAB /* cat_host_04.jpg in Resources */,
+				B6B914D4178DA8EF00A18BAB /* cat_host_03.jpg in Resources */,
+				B6B914D7178DACB500A18BAB /* cats_SIP_02.jpg in Resources */,
+				B6B914D8178DACB500A18BAB /* cats_SIP_01.jpg in Resources */,
+				B6B914DA178DAE2800A18BAB /* cat_audiocon_01.jpg in Resources */,
+				B6B914DC178DB05100A18BAB /* cat_audiocon_02.png in Resources */,
+				B648D4BD1791B68300369B4A /* cat_phonenet_01.jpg in Resources */,
+				B648D4BF1791B9C700369B4A /* cat_phonenet_02.jpg in Resources */,
+				B648D4C11791BACB00369B4A /* click_connect_01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

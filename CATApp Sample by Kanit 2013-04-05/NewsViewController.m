@@ -11,7 +11,7 @@
 #import "DetailNewsViewController.h"
 #import "myActivityIndicator.h"
 
-
+NSInteger myTitle,myDesc,myPic,myLink;
 @implementation NewsViewController{
     dispatch_queue_t backgroundQueue;
     UIBackgroundTaskIdentifier backgroundTaskIdentifier;
@@ -99,6 +99,11 @@
         
 		xmlStringFileObject =[[XMLStringFile alloc]init];
         //
+        myDesc = 0;
+        myPic = 0;
+        myLink = 0;
+        myTitle = 0;
+        
 	}
     
 	
@@ -120,22 +125,26 @@
 		xmlStringFileObject.xmltitle=nodecontent;
        NSArray *node = [[NSArray alloc] initWithObjects:nodecontent, nil];
         [iTitle addObjectsFromArray:node];
+        myTitle = 1;
 	}
 	else if([elementName isEqualToString:@"description"]){
 		xmlStringFileObject.xmldescription=nodecontent;
         NSArray *nodeDesc = [[NSArray alloc] initWithObjects:nodecontent, nil];
         [iDesc addObjectsFromArray:nodeDesc];
+        myDesc = 1;
 	}
     else if([elementName isEqualToString:@"link"]){
 		xmlStringFileObject.xmldescription=nodecontent;
         NSArray *nodeLink = [[NSArray alloc] initWithObjects:nodecontent, nil];
         [iLink addObjectsFromArray:nodeLink];
+        myLink = 1;
 	}
     else if([elementName isEqualToString:@"enclosure"]){
         
         xmlStringFileObject.xmllink=[@"http://www.cattelecom.com" stringByAppendingString:eUrl];
         NSArray *nodePic = [[NSArray alloc] initWithObjects:[@"http://www.cattelecom.com" stringByAppendingString:eUrl], nil];
         [iPic addObjectsFromArray:nodePic];
+        myPic = 1;
         //xmlStringFileObject.xmllink=nodecontent;
 	}
     
@@ -188,28 +197,30 @@
 
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
         cell.textLabel.text = [iTitle objectAtIndex:indexPath.row];
-        cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row];
+        cell.detailTextLabel.text = [iDesc objectAtIndex:indexPath.row+1];
         //
                                  
 //        UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
 //        cell.imageView.image = myImage;
-
-        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
-        
-        dispatch_async(queue, ^{
-            NSLog(@"Before LoadImage");
-            UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
-
-            NSLog(@"After LoadImage");
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [[cell imageView] setImage:myImage];
-                [cell setNeedsLayout];
-            NSLog(@"Alloc Image");
+        if ([iPic objectAtIndex:indexPath.row] != Nil) {
+            dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
+            
+            dispatch_async(queue, ^{
+                NSLog(@"Before LoadImage");
+                UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
+                
+                NSLog(@"After LoadImage");
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [[cell imageView] setImage:myImage];
+                    [cell setNeedsLayout];
+                    NSLog(@"Alloc Image");
+                });
+                
             });
             
-        });
+            dispatch_release(queue);
+        }
 
-       dispatch_release(queue);
         
         
 	}else {
@@ -254,7 +265,7 @@
     
     view.iURL = [iLink objectAtIndex:indexPath.row];
     view.iTitle = [iTitle objectAtIndex:indexPath.row];
-    view.iDescription = [iDesc objectAtIndex:indexPath.row];
+    view.iDescription = [iDesc objectAtIndex:indexPath.row+1];
     view.iPic = [iPic objectAtIndex:indexPath.row];
     
     
