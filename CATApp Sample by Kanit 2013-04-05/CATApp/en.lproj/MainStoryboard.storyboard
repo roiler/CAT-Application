@@ -2657,13 +2657,13 @@
         <!--View Controller - CAT Wireless-->
         <scene sceneID="wB4-Kg-3a6">
             <objects>
-                <viewController id="vOD-bs-XI1" sceneMemberID="viewController">
+                <viewController id="vOD-bs-XI1" customClass="MYBYCATViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7R5-iT-20W">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" id="BR9-Xx-9kF">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1169"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1168"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="newmyLogo.png" id="4f5-jh-rxC">
@@ -2742,6 +2742,36 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IDW-Uw-cOR">
+                                        <rect key="frame" x="20" y="1079" width="122" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Promotion">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkCost" destination="vOD-bs-XI1" eventType="touchUpInside" id="o45-y6-phf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VGa-1D-GML">
+                                        <rect key="frame" x="148" y="1079" width="155" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Check Data Usage">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkUsage" destination="vOD-bs-XI1" eventType="touchUpInside" id="lnf-Ms-qXs"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98863636363636365" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2000"/>
@@ -14647,7 +14677,7 @@ Cg
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2200"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2000"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -14810,7 +14840,7 @@ Cg
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1100"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1000"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -15866,7 +15896,7 @@ Cg
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="5200"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="5000"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -16634,7 +16664,7 @@ Cg
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="3900"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="3700"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -19225,7 +19255,7 @@ CiAKA
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2400"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2300"/>
                             </scrollView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ลักษณะบริการ" id="iAT-ES-PE1">
                                 <rect key="frame" x="10" y="-634" width="220" height="0.0"/>
@@ -19422,7 +19452,7 @@ CiAKA
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2400"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1400"/>
                             </scrollView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ลักษณะบริการ" id="9jv-C5-13a">
                                 <rect key="frame" x="10" y="-634" width="220" height="0.0"/>
@@ -19443,7 +19473,7 @@ CiAKA
         <!--View Controller - CAT 001-->
         <scene sceneID="8fL-yY-eoB">
             <objects>
-                <viewController id="8Ns-e4-ZHE" sceneMemberID="viewController">
+                <viewController id="8Ns-e4-ZHE" customClass="CAT001ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="95j-oa-0bm">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -19548,6 +19578,9 @@ CiAKA
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkCost" destination="8Ns-e4-ZHE" eventType="touchUpInside" id="OT4-ID-z30"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2700"/>
@@ -19559,12 +19592,12 @@ CiAKA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJT-sY-3IJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3058" y="-18"/>
+            <point key="canvasLocation" x="6533" y="-54"/>
         </scene>
         <!--View Controller - CAT 009-->
         <scene sceneID="8yp-qu-c6L">
             <objects>
-                <viewController id="HWH-9k-iDi" sceneMemberID="viewController">
+                <viewController id="HWH-9k-iDi" customClass="CAT009ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kZN-rR-pib">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -19645,6 +19678,9 @@ CiAKA
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkCost" destination="HWH-9k-iDi" eventType="touchUpInside" id="h4h-vN-pgM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1800"/>
@@ -19656,7 +19692,7 @@ CiAKA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZoB-U5-GVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2868" y="36"/>
+            <point key="canvasLocation" x="6183" y="-54"/>
         </scene>
         <!--View Controller - CAT 100-->
         <scene sceneID="HZM-Ma-v1H">
@@ -19740,7 +19776,7 @@ CiAKA
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2400"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2300"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -19749,12 +19785,12 @@ CiAKA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zGG-bP-orH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2707" y="120"/>
+            <point key="canvasLocation" x="5833" y="-54"/>
         </scene>
-        <!--View Controller - CAT Thaicard-->
+        <!--Thai Card View Controller - CAT Thaicard-->
         <scene sceneID="MLc-cw-Lp7">
             <objects>
-                <viewController id="QfA-eC-Uoc" sceneMemberID="viewController">
+                <viewController id="QfA-eC-Uoc" customClass="CATThaiCardViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qGH-d5-NRz">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -19857,6 +19893,9 @@ CiAKA
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkCost" destination="QfA-eC-Uoc" eventType="touchUpInside" id="Gwn-eT-EcP"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="อัตราค่าบริการ" id="S3K-er-Y2B">
                                         <rect key="frame" x="20" y="1529" width="275" height="39"/>
@@ -19901,7 +19940,7 @@ CiAKA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QAi-JD-taS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4320" y="-39"/>
+            <point key="canvasLocation" x="5505" y="-54"/>
         </scene>
         <!--View Controller - CAT Thaicard Plus-->
         <scene sceneID="VhD-80-6d5">
@@ -20701,7 +20740,7 @@ Cgo
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="3800"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="2100"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -20710,12 +20749,12 @@ Cgo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqt-I1-3ge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5030" y="-30"/>
+            <point key="canvasLocation" x="5181" y="-54"/>
         </scene>
-        <!--View Controller - CAT2Call-->
+        <!--Call View Controller - CAT2Call-->
         <scene sceneID="861-wE-bUb">
             <objects>
-                <viewController id="fie-5F-7Kk" sceneMemberID="viewController">
+                <viewController id="fie-5F-7Kk" customClass="CAT2CallViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJX-Lf-kCk">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -22676,31 +22715,7 @@ Cgo
                                             </fragment>
                                             <fragment>
                                                 <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                <attributes>
-                                                    <color key="NSBackgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.9882352941176471" alpha="1" colorSpace="deviceRGB"/>
-                                                    <color key="NSColor" red="0.42745098039215684" green="0.43137254901960786" blue="0.44313725490196076" alpha="1" colorSpace="deviceRGB"/>
-                                                    <font key="NSFont" size="14" name="Tahoma"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="http://www.cattelecom.com/web_data/uploads/file/service/CAT2call%20Rate%201%20Jan-%2030%20Jun%202012.pdf">
-                                                <attributes>
-                                                    <color key="NSBackgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.9882352941176471" alpha="1" colorSpace="deviceRGB"/>
-                                                    <color key="NSColor" red="0.42745098039215684" green="0.43137254901960786" blue="0.44313725490196076" alpha="1" colorSpace="deviceRGB"/>
-                                                    <font key="NSFont" size="14" name="Tahoma"/>
-                                                    <string key="NSLink">http://www.cattelecom.com/web_data/uploads/file/service/CAT2call%20Rate%201%20Jan-%2030%20Jun%202012.pdf</string>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cgo
+CgoKCgo
 </string>
                                                 <attributes>
                                                     <color key="NSBackgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.9882352941176471" alpha="1" colorSpace="deviceRGB"/>
@@ -22874,6 +22889,21 @@ Cg
                                         <rect key="frame" x="23" y="2395" width="277" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vnS-rB-RgY">
+                                        <rect key="frame" x="23" y="2009" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="ตรวจดูอัตราค่าใช้บริการ">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="TouchbtnLinkCost" destination="fie-5F-7Kk" eventType="touchUpInside" id="2fn-wP-fSV"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="5000"/>
                             </scrollView>
@@ -22884,7 +22914,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6EC-x3-Rmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2805" y="11"/>
+            <point key="canvasLocation" x="4849" y="-54"/>
         </scene>
         <!--View Controller - CAT2Call Plus-->
         <scene sceneID="xKd-Xz-9mr">
@@ -24554,7 +24584,7 @@ Cg
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MTy-jk-dXi">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" id="MTy-jk-dXi">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="2579"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
@@ -25328,8 +25358,39 @@ Cg
         <image name="จานดาวเทียม.jpg" width="800" height="600"/>
     </resources>
     <classes>
+        <class className="CAT001ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CAT001ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="TouchbtnLinkCost"/>
+            </relationships>
+        </class>
+        <class className="CAT009ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CAT009ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="TouchbtnLinkCost"/>
+            </relationships>
+        </class>
+        <class className="CAT2CallViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CAT2CallViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="TouchbtnLinkCost"/>
+            </relationships>
+        </class>
+        <class className="CATThaiCardViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CATThaiCardViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="TouchbtnLinkCost"/>
+            </relationships>
+        </class>
         <class className="LocationIOViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LocationIOViewController.h"/>
+        </class>
+        <class className="MYBYCATViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MYBYCATViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="TouchbtnLinkCost"/>
+                <relationship kind="action" name="TouchbtnLinkUsage"/>
+            </relationships>
         </class>
         <class className="NewsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NewsViewController.h"/>

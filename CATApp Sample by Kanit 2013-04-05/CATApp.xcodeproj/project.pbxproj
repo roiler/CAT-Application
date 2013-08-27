@@ -16,6 +16,8 @@
 		B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA5CB1743432500621235 /* DetailNewsViewController.m */; };
 		B60AA5CE1743432500621235 /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60AA5CC1743432500621235 /* DetailNewsViewController.xib */; };
 		B60B0BDF173021E00076E585 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B0BDE173021E00076E585 /* rss.png */; };
+		B60C50BD17CB74770094AC39 /* Logo1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60C50BC17CB74770094AC39 /* Logo1x.png */; };
+		B60C50BF17CB747C0094AC39 /* Logo2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60C50BE17CB747C0094AC39 /* Logo2x.png */; };
 		B60F4609174CAA770041259A /* myActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F4607174CAA770041259A /* myActivityIndicator.m */; };
 		B60F460A174CAA770041259A /* myActivityIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60F4608174CAA770041259A /* myActivityIndicator.xib */; };
 		B61E8898172F5DC800B22AB3 /* CATDatacom.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E8897172F5DC800B22AB3 /* CATDatacom.png */; };
@@ -83,6 +85,13 @@
 		B65DF4CD175DDC0100521296 /* sat connect solution.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65DF4CC175DDC0100521296 /* sat connect solution.jpg */; };
 		B68557B9174C686300FCE15B /* CAT_ON_Net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68557B8174C686300FCE15B /* CAT_ON_Net.jpg */; };
 		B68557BB174C69A800FCE15B /* CAT_ON_Net2.png in Resources */ = {isa = PBXBuildFile; fileRef = B68557BA174C69A800FCE15B /* CAT_ON_Net2.png */; };
+		B69CF96817C4ECF6009847E4 /* CAT001ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF96717C4ECF6009847E4 /* CAT001ViewController.m */; };
+		B69CF96D17C4F15B009847E4 /* CostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF96B17C4F15B009847E4 /* CostViewController.m */; };
+		B69CF96E17C4F15B009847E4 /* CostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69CF96C17C4F15B009847E4 /* CostViewController.xib */; };
+		B69CF97117C4F4C7009847E4 /* CAT009ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF97017C4F4C7009847E4 /* CAT009ViewController.m */; };
+		B69CF97417C4F6B6009847E4 /* CATThaiCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF97317C4F6B6009847E4 /* CATThaiCardViewController.m */; };
+		B69CF97717C4F811009847E4 /* CAT2CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF97617C4F811009847E4 /* CAT2CallViewController.m */; };
+		B69CF97A17C4FC36009847E4 /* MYBYCATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CF97917C4FC36009847E4 /* MYBYCATViewController.m */; };
 		B69EDE8A173EB5240002AF2A /* twitter-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B69EDE89173EB5240002AF2A /* twitter-logo.png */; };
 		B69EDE90174165E30002AF2A /* XMLStringFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE8F174165E20002AF2A /* XMLStringFile.m */; };
 		B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EDE921741E34B0002AF2A /* WebNewsViewController.m */; };
@@ -107,8 +116,6 @@
 		B6B914D8178DACB500A18BAB /* cats_SIP_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D6178DACB500A18BAB /* cats_SIP_01.jpg */; };
 		B6B914DA178DAE2800A18BAB /* cat_audiocon_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B914D9178DAE2800A18BAB /* cat_audiocon_01.jpg */; };
 		B6B914DC178DB05100A18BAB /* cat_audiocon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B914DB178DB05100A18BAB /* cat_audiocon_02.png */; };
-		B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */; };
-		B6CAA096170E69BE000F2DB6 /* CATLogo2X.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */; };
 		B6CAA0B3170E8C4E000F2DB6 /* CATScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */; };
 		B6F5A698173CE58B006D9B0A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F5A697173CE58B006D9B0A /* NewsViewController.m */; };
 		C3C9CDBA173660D00033B28E /* trunked-mobile-radio-250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */; };
@@ -130,6 +137,9 @@
 		B60AA5CB1743432500621235 /* DetailNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsViewController.m; sourceTree = "<group>"; };
 		B60AA5CC1743432500621235 /* DetailNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
 		B60B0BDE173021E00076E585 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
+		B60C50BC17CB74770094AC39 /* Logo1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo1x.png; sourceTree = "<group>"; };
+		B60C50BE17CB747C0094AC39 /* Logo2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2x.png; sourceTree = "<group>"; };
+		B60C50C417CC4DB70094AC39 /* CATPlc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = CATPlc.mobileprovision; path = ../../../../../../Users/Eve/Desktop/CATPlc.mobileprovision; sourceTree = "<group>"; };
 		B60F4606174CAA770041259A /* myActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myActivityIndicator.h; sourceTree = "<group>"; };
 		B60F4607174CAA770041259A /* myActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myActivityIndicator.m; sourceTree = "<group>"; };
 		B60F4608174CAA770041259A /* myActivityIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myActivityIndicator.xib; sourceTree = "<group>"; };
@@ -204,6 +214,19 @@
 		B65DF4CC175DDC0100521296 /* sat connect solution.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sat connect solution.jpg"; sourceTree = SOURCE_ROOT; };
 		B68557B8174C686300FCE15B /* CAT_ON_Net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CAT_ON_Net.jpg; sourceTree = "<group>"; };
 		B68557BA174C69A800FCE15B /* CAT_ON_Net2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAT_ON_Net2.png; sourceTree = "<group>"; };
+		B69CF96617C4ECF6009847E4 /* CAT001ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAT001ViewController.h; sourceTree = "<group>"; };
+		B69CF96717C4ECF6009847E4 /* CAT001ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAT001ViewController.m; sourceTree = "<group>"; };
+		B69CF96A17C4F15B009847E4 /* CostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostViewController.h; sourceTree = "<group>"; };
+		B69CF96B17C4F15B009847E4 /* CostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostViewController.m; sourceTree = "<group>"; };
+		B69CF96C17C4F15B009847E4 /* CostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CostViewController.xib; sourceTree = "<group>"; };
+		B69CF96F17C4F4C7009847E4 /* CAT009ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAT009ViewController.h; sourceTree = "<group>"; };
+		B69CF97017C4F4C7009847E4 /* CAT009ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAT009ViewController.m; sourceTree = "<group>"; };
+		B69CF97217C4F6B6009847E4 /* CATThaiCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATThaiCardViewController.h; sourceTree = "<group>"; };
+		B69CF97317C4F6B6009847E4 /* CATThaiCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATThaiCardViewController.m; sourceTree = "<group>"; };
+		B69CF97517C4F811009847E4 /* CAT2CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAT2CallViewController.h; sourceTree = "<group>"; };
+		B69CF97617C4F811009847E4 /* CAT2CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAT2CallViewController.m; sourceTree = "<group>"; };
+		B69CF97817C4FC36009847E4 /* MYBYCATViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBYCATViewController.h; sourceTree = "<group>"; };
+		B69CF97917C4FC36009847E4 /* MYBYCATViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBYCATViewController.m; sourceTree = "<group>"; };
 		B69EDE89173EB5240002AF2A /* twitter-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-logo.png"; sourceTree = "<group>"; };
 		B69EDE8E174165E20002AF2A /* XMLStringFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStringFile.h; sourceTree = "<group>"; };
 		B69EDE8F174165E20002AF2A /* XMLStringFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLStringFile.m; sourceTree = "<group>"; };
@@ -230,8 +253,6 @@
 		B6B914D6178DACB500A18BAB /* cats_SIP_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cats_SIP_01.jpg; sourceTree = SOURCE_ROOT; };
 		B6B914D9178DAE2800A18BAB /* cat_audiocon_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_audiocon_01.jpg; sourceTree = SOURCE_ROOT; };
 		B6B914DB178DB05100A18BAB /* cat_audiocon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_audiocon_02.png; sourceTree = SOURCE_ROOT; };
-		B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo1X.png; sourceTree = "<group>"; };
-		B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATLogo2X.png; sourceTree = "<group>"; };
 		B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CATScreen.png; sourceTree = "<group>"; };
 		B6F5A696173CE58B006D9B0A /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = SOURCE_ROOT; };
 		B6F5A697173CE58B006D9B0A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = SOURCE_ROOT; };
@@ -334,6 +355,8 @@
 		B647F273170D5C4C00290C90 = {
 			isa = PBXGroup;
 			children = (
+				B60C50BE17CB747C0094AC39 /* Logo2x.png */,
+				B60C50BC17CB74770094AC39 /* Logo1x.png */,
 				B69EDE89173EB5240002AF2A /* twitter-logo.png */,
 				B61E8ED1172FC02600B22AB3 /* CATBoard.png */,
 				C3C9CDB9173660D00033B28E /* trunked-mobile-radio-250x250.png */,
@@ -351,13 +374,12 @@
 				C3C9CDC3173682CA0033B28E /* CAT Convention Hall2.jpg */,
 				B61E8897172F5DC800B22AB3 /* CATDatacom.png */,
 				B6CAA0B2170E8C4E000F2DB6 /* CATScreen.png */,
-				B6CAA095170E69BE000F2DB6 /* CATLogo2X.png */,
-				B6CAA093170E69BB000F2DB6 /* CATLogo1X.png */,
 				B647F2A7170D623200290C90 /* myLogo.png */,
 				B647F2A5170D622F00290C90 /* myLogo1.png */,
 				B647F285170D5C4C00290C90 /* CATApp */,
 				B647F27E170D5C4C00290C90 /* Frameworks */,
 				B647F27D170D5C4C00290C90 /* Products */,
+				B60C50C417CC4DB70094AC39 /* CATPlc.mobileprovision */,
 			);
 			sourceTree = "<group>";
 		};
@@ -382,6 +404,10 @@
 		B647F285170D5C4C00290C90 /* CATApp */ = {
 			isa = PBXGroup;
 			children = (
+				B69CF96A17C4F15B009847E4 /* CostViewController.h */,
+				B69CF96B17C4F15B009847E4 /* CostViewController.m */,
+				B69CF96C17C4F15B009847E4 /* CostViewController.xib */,
+				B69CF96917C4ED07009847E4 /* Products Code */,
 				B6062BDB174806A10087304D /* Products */,
 				B69EDE8E174165E20002AF2A /* XMLStringFile.h */,
 				B69EDE8F174165E20002AF2A /* XMLStringFile.m */,
@@ -448,6 +474,23 @@
 			name = Location;
 			sourceTree = "<group>";
 		};
+		B69CF96917C4ED07009847E4 /* Products Code */ = {
+			isa = PBXGroup;
+			children = (
+				B69CF96617C4ECF6009847E4 /* CAT001ViewController.h */,
+				B69CF96717C4ECF6009847E4 /* CAT001ViewController.m */,
+				B69CF96F17C4F4C7009847E4 /* CAT009ViewController.h */,
+				B69CF97017C4F4C7009847E4 /* CAT009ViewController.m */,
+				B69CF97217C4F6B6009847E4 /* CATThaiCardViewController.h */,
+				B69CF97317C4F6B6009847E4 /* CATThaiCardViewController.m */,
+				B69CF97517C4F811009847E4 /* CAT2CallViewController.h */,
+				B69CF97617C4F811009847E4 /* CAT2CallViewController.m */,
+				B69CF97817C4FC36009847E4 /* MYBYCATViewController.h */,
+				B69CF97917C4FC36009847E4 /* MYBYCATViewController.m */,
+			);
+			name = "Products Code";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -503,8 +546,6 @@
 				B647F299170D5C4C00290C90 /* MainStoryboard.storyboard in Resources */,
 				B647F2A6170D622F00290C90 /* myLogo1.png in Resources */,
 				B647F2A8170D623200290C90 /* myLogo.png in Resources */,
-				B6CAA094170E69BB000F2DB6 /* CATLogo1X.png in Resources */,
-				B6CAA096170E69BE000F2DB6 /* CATLogo2X.png in Resources */,
 				B6CAA0B3170E8C4E000F2DB6 /* CATScreen.png in Resources */,
 				B61E8898172F5DC800B22AB3 /* CATDatacom.png in Resources */,
 				B61E889A172F616400B22AB3 /* CATVoice.png in Resources */,
@@ -597,6 +638,9 @@
 				B648D4BD1791B68300369B4A /* cat_phonenet_01.jpg in Resources */,
 				B648D4BF1791B9C700369B4A /* cat_phonenet_02.jpg in Resources */,
 				B648D4C11791BACB00369B4A /* click_connect_01.jpg in Resources */,
+				B69CF96E17C4F15B009847E4 /* CostViewController.xib in Resources */,
+				B60C50BD17CB74770094AC39 /* Logo1x.png in Resources */,
+				B60C50BF17CB747C0094AC39 /* Logo2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +660,12 @@
 				B69EDE931741E34C0002AF2A /* WebNewsViewController.m in Sources */,
 				B60AA5CD1743432500621235 /* DetailNewsViewController.m in Sources */,
 				B60F4609174CAA770041259A /* myActivityIndicator.m in Sources */,
+				B69CF96817C4ECF6009847E4 /* CAT001ViewController.m in Sources */,
+				B69CF96D17C4F15B009847E4 /* CostViewController.m in Sources */,
+				B69CF97117C4F4C7009847E4 /* CAT009ViewController.m in Sources */,
+				B69CF97417C4F6B6009847E4 /* CATThaiCardViewController.m in Sources */,
+				B69CF97717C4F811009847E4 /* CAT2CallViewController.m in Sources */,
+				B69CF97A17C4FC36009847E4 /* MYBYCATViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,7 +702,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pornthep Nivatyakul (CLSF35R2J7)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -665,8 +716,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -682,14 +734,17 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -698,11 +753,13 @@
 		B647F2A0170D5C4C00290C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAT Plc";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -710,11 +767,15 @@
 		B647F2A1170D5C4C00290C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CATApp/CATApp-Prefix.pch";
 				INFOPLIST_FILE = "CATApp/CATApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAT Plc";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -729,7 +790,7 @@
 				B647F29E170D5C4C00290C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B647F29F170D5C4C00290C90 /* Build configuration list for PBXNativeTarget "CATApp" */ = {
 			isa = XCConfigurationList;
@@ -738,7 +799,7 @@
 				B647F2A1170D5C4C00290C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

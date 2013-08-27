@@ -14,15 +14,15 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>CATLogo1X.png</string>
-				<string>CATLogo2X.png</string>
+				<string>Logo1x.png</string>
+				<string>Logo2x.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>CAT.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>V8W87RL4QV.com.cattelecom.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

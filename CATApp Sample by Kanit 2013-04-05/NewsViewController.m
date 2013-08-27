@@ -50,7 +50,7 @@ NSInteger myTitle,myDesc,myPic,myLink;
     
     
     
-    NSLog(@"Before Loadata");
+    //NSLog(@"Before Loadata");
     
         NSString *urlString = @"http://www.cattelecom.com/web_data/uploads/xml/export.php?lang=th";
 
@@ -63,15 +63,15 @@ NSInteger myTitle,myDesc,myPic,myLink;
     dispatch_async(backgroundQueue,
                     ^{
 
-                       NSLog(@"Loading Data");
+                       //NSLog(@"Loading Data");
                        NSData *xmlData=[[NSData alloc]initWithContentsOfURL:url];
-                       NSLog(@"Loaded Data");
-                       NSLog(@"Parsing Data");
+                       //NSLog(@"Loaded Data");
+                       //NSLog(@"Parsing Data");
                        xmlParserObject =[[NSXMLParser alloc]initWithData:xmlData];
                        [xmlParserObject setDelegate:self];
                        [xmlParserObject parse];
                        [xmlData release];
-                       NSLog(@"Parsed Data");
+                       //NSLog(@"Parsed Data");
                        
               dispatch_async(dispatch_get_main_queue(), ^{
     
@@ -206,14 +206,14 @@ NSInteger myTitle,myDesc,myPic,myLink;
             dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
             
             dispatch_async(queue, ^{
-                NSLog(@"Before LoadImage");
+                //NSLog(@"Before LoadImage");
                 UIImage* myImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[iPic objectAtIndex:indexPath.row]]]];
                 
-                NSLog(@"After LoadImage");
+                //NSLog(@"After LoadImage");
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [[cell imageView] setImage:myImage];
                     [cell setNeedsLayout];
-                    NSLog(@"Alloc Image");
+                    //NSLog(@"Alloc Image");
                 });
                 
             });
